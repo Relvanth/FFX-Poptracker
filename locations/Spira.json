@@ -45,7 +45,35 @@
                     {
                         "name": "Valley - Antidote x2 (Chest)",
                         "ref": "Besaid/Valley/Antidote x2 (Chest)/"
-                    }
+                    },
+                    {
+                        "name": "Village - Phoenix Down x1 (Chest)",
+                        "ref": "Besaid/Village/Phoenix Down x1 (Chest)/"
+                    },
+                    {
+                        "name": "Village - Hi-Potion x1 (Chest)",
+                        "ref": "Besaid/Village/Behind Shop/Hi-Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "Village - 400 gil (Chest)",
+                        "ref": "Besaid/Village/Behind Shop/400 gil (Chest)/"
+                    },
+                    {
+                        "name": "Village - Potion x2 (Chest)",
+                        "ref": "Besaid/Village/Behind Shop/Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Village - Rod of Wisdom",
+                        "ref": "Besaid/Village/Destruction Sphere/Rod of Wisdom"
+                    },
+                    {
+                        "name": "Village - Map",
+                        "ref": "Besaid/Village/Exit the Village (Event)/Map"
+                    },
+                    {
+                        "name": "Village - Brotherhood",
+                        "ref": "Besaid/Village/Exit the Village (Event)/Brotherhood"
+                    },
                 ]
             }
         ]

@@ -9,7 +9,7 @@
             {
                 "name": "Moon Crest (Chest)",
                 "map_locations": [{ "map": "Besaid Beach", "x": 192, "y": 542}],
-                "sections": [{"access_rules": ""}]
+                "sections": [{"access_rules": "$hasBesaid()"}]
             }
         ]
 

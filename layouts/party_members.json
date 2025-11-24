@@ -1,0 +1,39 @@
+{
+    "party_members_horizontal": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 42,
+                        "item_width": 42,
+                        "rows": [
+                            [
+                                "partymember:tidus",
+                                "partymember:wakka",
+                                "partymember:lulu",
+                                "partymember:yuna"
+                            ],
+                            [
+                                "partymember:kimahri",
+                                "partymember:auron",
+                                "partymember:rikku",
+                                "partymember:seymour"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,183 +1,188 @@
 [
     {
         "name": "Al Bhed Primers",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
-            {
-                "name": "Complete Al Bhed Primers",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer I",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
+        "access_rules": [" "],
+        "children": [
             {
                 "name": "Al Bhed Primer II",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer III",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer IV",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer V",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer VI",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer VII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer VIII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer IX",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer X",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XI",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XIII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XIV",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XV",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XVI",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XVII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XVIII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XIX",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XX",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XXI",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XXII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XXIII",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XXIV",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XXV",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Al Bhed Primer XXVI",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Al Bhed Primers",
-                "x": 868,
-                "y": 1154,
-                "size": 6
+                "map_locations": [{ "map": "Besaid Village", "x": 165, "y": 375}],
+                "sections": [{"access_rules": "$hasBesaid()"}]
             }
         ]
+        // "sections": [
+        //     {
+        //         "name": "Complete Al Bhed Primers",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer I",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer II",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer III",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer IV",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer V",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer VI",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer VII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer VIII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer IX",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer X",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XI",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XIII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XIV",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XV",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XVI",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XVII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XVIII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XIX",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XX",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XXI",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XXII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XXIII",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XXIV",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XXV",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     },
+        //     {
+        //         "name": "Al Bhed Primer XXVI",
+        //         "access_rules": [],
+        //         "visibility_rules": [],
+        //         "item_count": 1
+        //     }
+        // ],
+        // "map_locations": [
+        //     {
+        //         "map": "Al Bhed Primers",
+        //         "x": 868,
+        //         "y": 1154,
+        //         "size": 6
+        //     }
+        // ]
     }
 ]
