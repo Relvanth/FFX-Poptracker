@@ -162,10 +162,22 @@
         "img": "images/maps/Lake Macalania Bottom.png"
     },
     {
-        "name": "Luca",
+        "name": "Luca Stadium",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/Luca.png"
+        "img": "images/maps/Luca Stadium.png"
+    },
+    {
+        "name": "Luca Dock",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Luca Dock.png"
+    },
+    {
+        "name": "Luca City",
+        "location_size": 6,
+        "location_border_thickness": 1,
+        "img": "images/maps/Luca City.png"
     },
     {
         "name": "Macalania Woods",
@@ -174,19 +186,19 @@
         "img": "images/maps/Macalania Woods.png"
     },
     {
-        "name": "MiHen Highroad",
+        "name": "Miihen Highroad South Central",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/MiHen Highroad.png"
+        "img": "images/maps/Miihen Highroad.png"
     },
     {
-        "name": "MiHen Highroad Echo Ring (Win Aeon Fight)",
+        "name": "Miihen Highroad Agency",
         "location_size": 6,
         "location_border_thickness": 1,
-        "img": "images/maps/MiHen Highroad Echo Ring (Win Aeon Fight).png"
+        "img": "images/maps/Miihen Highroad.png"
     },
     {
-        "name": "Miihen Highroad",
+        "name": "Miihen Highroad North",
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Miihen Highroad.png"
@@ -286,12 +298,6 @@
         "location_size": 6,
         "location_border_thickness": 1,
         "img": "images/maps/Spira.png"
-    },
-    {
-        "name": "Story Win vs. Luca Goers Reward",
-        "location_size": 6,
-        "location_border_thickness": 1,
-        "img": "images/maps/Story Win vs. Luca Goers Reward.png"
     },
     {
         "name": "Summoners Soul",

@@ -4822,7 +4822,7 @@
     {
         "name": "Flint",
         "type": "consumable",
-        "img": "images/Treasure.png",
+        "img": "images/items/hd/Key_Item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_quantity": 0,
@@ -6063,7 +6063,7 @@
     {
         "name": "Withered Bouquet",
         "type": "consumable",
-        "img": "images/Treasure.png",
+        "img": "images/items/hd/Key_Item_HD.png",
         "img_mods": "",
         "disabled_img": "",
         "initial_quantity": 0,

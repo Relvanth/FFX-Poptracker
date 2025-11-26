@@ -1,10 +1,25 @@
 [
     {
+        "name": "Klikk Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "klikkdefeated"
+    },
+    {
+        "name": "Chocobo Eater Defeated",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "chocoboeaterdefeated"
+    },
+
+    {
         "name": "Besaid Destruction Sphere",
         "type": "toggle",
-        "img": "images/Treasure.png",
+        "img": "images/spheres/hd/Purple_Sphere_HD_BW.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
+        "disabled_img": "images/spheres/hd/Purple_Sphere_HD.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
@@ -13,12 +28,34 @@
     {
         "name": "Kilika Destruction Sphere",
         "type": "toggle",
-        "img": "images/Treasure.png",
+        "img": "images/spheres/hd/Purple_Sphere_HD_BW.png",
         "img_mods": "@disabled",
-        "disabled_img": "images/Treasure.png",
+        "disabled_img": "images/spheres/hd/Purple_Sphere_HD.png",
         "disabled_img_mods": "",
         "capturable": true,
         "initial_active_state": false,
         "codes": "kilikadestructionsphere"
+    },
+
+    {
+        "name": "Attack Reels",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "attackreels"
+    },
+    {
+        "name": "Status Reels",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "statusreels"
+    },
+    {
+        "name": "Auroch Reels",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "aurochreels"
     }
 ]

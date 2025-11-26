@@ -9,8 +9,8 @@
                 "name": "Anima",
                 "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
                 "access_rules": [
-                    "$hasBaaj, besaiddestructionsphere, kilikadestructionsphere", 
-                    "{$hasBaaj}"
+                    "$hasBaaj, klikkdefeated, besaiddestructionsphere, kilikadestructionsphere", 
+                    "{$hasBaaj, flint:1, witheredbouquet:1}"
                 ],
                 "sections": [{}]
             },

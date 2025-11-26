@@ -1,39 +1,56 @@
 [
     {
         "name": "Al Bhed Primers",
-        "chest_unopened_img": "/images/Treasure.png",
-        "chest_opened_img": "/images/TreasureBW.png",
+        "chest_unopened_img": "/images/items/hd/Al_Bhed_Primer_HD.png",
+        "chest_opened_img": "/images/items/hd/Al_Bhed_Primer_HD_BW.png",
         "overlay_background": "#000000",
-        "access_rules": [""],
         "children": [
             {
                 "name": "Al Bhed Primer I",
                 "map_locations": [{ "map": "Al Bhed Ship", "x": 0, "y": 0}],
-                "access_rules": "$hasBaaj",
+                "access_rules": ["$hasBaaj"],
                 "sections": [{}]
             },
             {
                 "name": "Al Bhed Primer II",
                 "map_locations": [{ "map": "Besaid Village", "x": 165, "y": 375}],
-                "access_rules": "$hasBesaid",
+                "access_rules": ["$hasBesaid"],
                 "sections": [{}]
             },
             {
                 "name": "Al Bhed Primer III",
                 "map_locations": [{ "map": "S.S. Liki", "x": 0, "y": 0}],
-                "access_rules": "$hasBesaid",
+                "access_rules": ["$hasBesaid"],
                 "sections": [{}]
             },
             {
                 "name": "Al Bhed Primer IV",
                 "map_locations": [{ "map": "Kilika Village", "x": 0, "y": 0}],
-                "access_rules": "$hasKilika",
+                "access_rules": ["$hasKilika"],
                 "sections": [{}]
             },
             {
                 "name": "Al Bhed Primer V",
                 "map_locations": [{ "map": "S.S. Winno", "x": 0, "y": 0}],
-                "access_rules": "$hasKilika",
+                "access_rules": ["$hasKilika"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer VI",
+                "map_locations": [{ "map": "Luca Stadium", "x": 0, "y": 0}],
+                "access_rules": ["$hasLuca"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer VII",
+                "map_locations": [{ "map": "Luca City", "x": 0, "y": 0}],
+                "access_rules": ["$hasLuca"],
+                "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer VIII",
+                "map_locations": [{ "map": "Miihen Highroad Agency", "x": 0, "y": 0}],
+                "access_rules": ["$hasMiihen"],
                 "sections": [{}]
             }
         ]

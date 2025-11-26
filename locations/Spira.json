@@ -91,7 +91,7 @@
                     },
                     {
                         "name": "Beach - Moon Crest",
-                        "ref": "Celestial/Moon Crest (Chest)/"
+                        "ref": "Celestial/Crest/Moon Crest (Chest)/"
                     },
                     {
                         "name": "Aurochs - Datto",
@@ -258,6 +258,86 @@
                     {
                         "name": "Ace Wizard (Seagulls)",
                         "ref": "S.S. Winno/Ace Wizard (Seagulls)/"
+                    }
+                ]
+            },
+            {
+                "name": "Luca",
+                "map_locations": [{ "map": "Spira", "x": 915, "y": 845, "size": 32}],
+                "sections": [
+                    {
+                        "name": "Stadium - Hi-Potion x2 (Chest)",
+                        "ref": "Luca/Stadium/Hi-Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Stadium - Al Bhed Primer VI",
+                        "ref": "Al Bhed Primers/Al Bhed Primer VI/"
+                    },
+                    {
+                        "name": "Stadium - Story Win vs. Luca Goers Reward",
+                        "ref": "Luca/Stadium/Story Win vs. Luca Goers Reward/"
+                    },
+                    {
+                        "name": "Stadium - Jupiter Crest (Locker)",
+                        "ref": "Celestial/Crest/Jupiter Crest (Locker)/"
+                    },
+                    {
+                        "name": "Dock - 600 Gil (Chest)",
+                        "ref": "Luca/Dock/600 Gil (Chest)/"
+                    },
+                    {
+                        "name": "Dock - Tidal Spear (Chest)",
+                        "ref": "Luca/Dock/Tidal Spear (Chest)/"
+                    },
+                    {
+                        "name": "Dock - Phoenix Down x2 (Chest)",
+                        "ref": "Luca/Dock/Phoenix Down x2 (Chest)/"
+                    },
+                    {
+                        "name": "Dock - HP Sphere x1 (Chest)",
+                        "ref": "Luca/Dock/HP Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Dock - Magic Sphere x1 (Chest)",
+                        "ref": "Magic Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Dock - Oblitzerator",
+                        "ref": "Luca/Dock/Oblitzerator/"
+                    },
+                    {
+                        "name": "City - 1000 Gil (Chest)",
+                        "ref": "Luca/City/1000 Gil (Chest)/"
+                    },
+                    {
+                        "name": "City - Al Bhed Primer VII",
+                        "ref": "Al Bhed Primers/Al Bhed Primer VII/"
+                    },
+                    {
+                        "name": "City - World Champion",
+                        "ref": "Celestial/Weapon/World Champion/"
+                    },
+                    {
+                        "name": "Blitzball - Jupiter Sigil (Blitzball League)",
+                        "ref": "Celestial/Sigil/Jupiter Sigil (Blitzball League)/"
+                    }
+                ]
+            },
+            {
+                "name": "Miihen Highroad",
+                "map_locations": [{ "map": "Spira", "x": 895, "y": 760, "size": 32}],
+                "sections": [
+                    {
+                        "name": "South - Hi-Potion (Yellow Shirt NPC)",
+                        "ref": "Miihen Highroad/South/Hi-Potion (Yellow Shirt NPC)/"
+                    },
+                    {
+                        "name": "Agency - Chocobo Eater",
+                        "ref": "Miihen Highroad/Agency/Chocobo Eater/"
+                    },
+                    {
+                        "name": "North - Heat Lance (Chest)",
+                        "ref": "Miihen Highroad/North/Heat Lance (Chest)/"
                     }
                 ]
             }

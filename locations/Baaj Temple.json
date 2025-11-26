@@ -57,12 +57,23 @@
                     {
                         "name": "Klikk Defeated",
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
-                        "sections": [{ "access_rules": ["flint:1, witheredbouquet:1"]}]
+                        "sections": [
+                            { 
+                                "access_rules": ["flint:1, witheredbouquet:1"],
+                                "hosted_item": "klikkdefeated",
+                                "item_count": 1,
+                                "clear_as_group": true
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "Temple",
+                "access_rules": [
+                    "klikkdefeated",
+                    "{flint:1, witheredbouquet:1}"
+                ],
                 "children": [
                     {
                         "name": "Megalixir (Chest)",

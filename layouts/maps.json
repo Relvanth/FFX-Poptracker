@@ -199,20 +199,56 @@
             {
                 "title": "Luca",
                 "content": {
-                    "type": "map",
-                    "maps": ["Luca"]
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Stadium",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Luca Stadium"]
+                            }
+                        },
+                        {
+                            "title": "Dock",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Luca Dock"]
+                            }
+                        },
+                        {
+                            "title": "City",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Luca City"]
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "title": "Miihen",
+                "title": "Miihen Highroad",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "MiHen Highroad",
+                            "title": "South & Central",
                             "content": {
                                 "type": "map",
-                                "maps": ["MiHen Highroad"]
+                                "maps": ["Miihen Highroad South Central"]
+                            }
+                        },
+                        {
+                            "title": "Agency",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Miihen Highroad Agency"]
+                            }
+                        },
+                        {
+                            "title": "North",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Miihen Highroad North"]
                             }
                         },
                         {

@@ -2551,7 +2551,7 @@
             }
         ]
     },
-    "item_test_horizontal": {
+    "key_items_horizontal": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0, 0",

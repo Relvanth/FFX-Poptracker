@@ -1,68 +1,70 @@
 [
     {
         "name": "Luca",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "access_rules": ["$hasLuca"],
+        "children": [
             {
-                "name": "Phoenix Down x2 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "Stadium",
+                "children": [
+                    {
+                        "name": "Hi-Potion x2 (Chest)",
+                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Story Win vs. Luca Goers Reward",
+                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             },
             {
-                "name": "600 Gil (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "name": "Dock",
+                "children": [
+                    {
+                        "name": "600 Gil (Chest)",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Tidal Spear (Chest)",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Phoenix Down x2 (Chest)",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "HP Sphere x1 (Chest)",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Magic Sphere x1 (Chest)",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    },
+                    {
+                        "name": "Oblitzerator",
+                        "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             },
             {
-                "name": "Tidal Spear (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "HP Sphere x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Hi-Potion x2 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "1000 Gil (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Magic Sphere x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Oblitzerator defeated",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Luca",
-                "x": 2197,
-                "y": 2405,
-                "size": 6
+                "name": "City",
+                "children": [
+                    {
+                        "name": "1000 Gil (Chest)",
+                        "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
+                        "sections": [{}]
+                    }
+                ]
             }
         ]
     }

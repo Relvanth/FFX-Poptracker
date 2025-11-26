@@ -66,6 +66,7 @@
                             { 
                                 "name": "Red Armlet", 
                                 "hosted_item": "kilikadestructionsphere",
+                                "item_count": 1,
                                 "clear_as_group": true
                             }
                         ]

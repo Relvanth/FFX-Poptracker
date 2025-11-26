@@ -74,6 +74,20 @@ function onClearHandler(slot_data)
     end
 end
 
+-- apply everything needed from slot_data, called from onClear
+function applySlotData(slot_data)
+    print("APPLY SLOT DATA")
+    local options = slot_data["options"]
+
+    if options['super_bosses'] then
+        print("SUPER BOSSES = ", options['super_bosses'])
+        local setOption = options['super_bosses']
+        local itemOption = Tracker:FindObjectForCode("superbosses")
+
+        itemOption.Active = setOption
+    end
+end
+
 function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("StateChanged")
     ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
@@ -86,7 +100,13 @@ function onClear(slot_data)
                 local location_obj = Tracker:FindObjectForCode(location)
                 if location_obj then
                     if location:sub(1, 1) == "@" then
-                        location_obj.AvailableChestCount = location_obj.ChestCount
+                        -- location_obj.AvailableChestCount = location_obj.ChestCount
+                        local obj = Tracker:FindObjectForCode(location)
+						if obj then
+							obj.AvailableChestCount = obj.ChestCount
+						elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+							print(string.format("onClear: could not find location object for code %s", location_code))
+						end
                     else
                         location_obj.Active = false
                     end
@@ -120,6 +140,9 @@ function onClear(slot_data)
             end
         end
     end
+
+    -- applySlotData(slot_data)
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data

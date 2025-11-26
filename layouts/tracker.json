@@ -32,11 +32,11 @@
                             },
                             {
                                 "type": "group",
-                                "header": "Item Tests",
+                                "header": "Key Items",
                                 "dock": "top",
                                 "content": {
                                     "type": "layout",
-                                    "key": "item_test_horizontal"
+                                    "key": "key_items_horizontal"
                                 }
                             }
                         ]
