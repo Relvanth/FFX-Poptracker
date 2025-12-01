@@ -141,6 +141,27 @@
         "initial_active_state": false,
         "codes": "defenderx"
     },
+    {
+        "name": "Biran & Yenke",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "biranyenke"
+    },
+    {
+        "name": "Seymour Flux",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "seymourflux"
+    },
+    {
+        "name": "Sanctuary Keeper",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "sanctuarykeeper"
+    },
     
     //Dark Aeons
     {

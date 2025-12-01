@@ -18,8 +18,8 @@
                         "ref": "Al Bhed Primers/Al Bhed Primer I/"
                     },
                     {
-                        "name": "Tros Defeated",
-                        "ref": "Al Bhed Ship/Tros Defeated/"
+                        "name": "Tros",
+                        "ref": "Al Bhed Ship/Tros/"
                     }
                 ]
             },
@@ -37,7 +37,7 @@
                     },
                     {
                         "name": "Outside - Hi-Potion (Chest)",
-                        "ref": "Baaj Temple/Outside/Hi-Potion (Chest)/"
+                        "ref": "Baaj Temple/Outside/Hi-Potion x1 (Chest)/"
                     },
                     {
                         "name": "Inside - Flint",
@@ -149,10 +149,10 @@
                         "name": "Cloister - Rod of Wisdom",
                         "ref": "Besaid/Village/Destruction Sphere/Rod of Wisdom"
                     },
-                    {
-                        "name": "Cloister - Valefor",
-                        "ref": "Aeons/Valefor/"
-                    },
+                    // {
+                    //     "name": "Cloister - Valefor",
+                    //     "ref": "Aeons/Valefor/"
+                    // },
                     {
                         "name": "Village - Map",
                         "ref": "Besaid/Village/Exit the Village (Event)/Map"
@@ -248,11 +248,11 @@
                     {
                         "name": "Cloister - Red Armlet",
                         "ref": "Kilika/Woods/Destruction Sphere/Red Armlet"
-                    },
-                    {
-                        "name": "Cloister - Ifrit",
-                        "ref": "Aeons/Ifrit/"
-                    }                    
+                    }//,
+                    // {
+                    //     "name": "Cloister - Ifrit",
+                    //     "ref": "Aeons/Ifrit/"
+                    // }                    
                 ]
             },
             {
@@ -603,10 +603,10 @@
                         "name": "Cloister - Magic Sphere",
                         "ref": "Djose/Temple/Destruction Sphere/Magic Sphere"
                     },
-                    {
-                        "name": "Cloister - Ixion",
-                        "ref": "Aeons/Ixion/"
-                    },
+                    // {
+                    //     "name": "Cloister - Ixion",
+                    //     "ref": "Aeons/Ixion/"
+                    // },
                     {
                         "name": "Temple - Switch Hitter (Chest)",
                         "ref": "Djose/Temple/Switch Hitter (Chest)/"
@@ -859,10 +859,10 @@
                         "name": "Temple - Seymour & Anima",
                         "ref": "Macalania/Lake/Temple/Seymour/"
                     },
-                    {
-                        "name": "Temple - Shiva",
-                        "ref": "Aeons/Shiva/"
-                    },
+                    // {
+                    //     "name": "Temple - Shiva",
+                    //     "ref": "Aeons/Shiva/"
+                    // },
                     {
                         "name": "Cloister - Luck Sphere",
                         "ref": "Macalania/Lake/Temple/Destruction Sphere/Luck Sphere"
@@ -1145,10 +1145,10 @@
                         "name": "Cloister - Knight Lance (Chest)",
                         "ref": "Bevelle/Cloister/Knight Lance (Chest)/"
                     },
-                    {
-                        "name": "Cloister - Bahamut",
-                        "ref": "Aeons/Bahamut/"
-                    },
+                    // {
+                    //     "name": "Cloister - Bahamut",
+                    //     "ref": "Aeons/Bahamut/"
+                    // },
                     {
                         "name": "Via Purifico - Mega-Potion x1 (Chest)",
                         "ref": "Bevelle/Via Purifico/Mega-Potion x1 (Chest)/"
@@ -1300,11 +1300,11 @@
                     {
                         "name": "Belgemine - Moon Sigil (Send Belgemine)",
                         "ref": "Celestial/Yuna/Moon Sigil (Send Belgemine)/"
-                    },
-                    {
-                        "name": "Cloister - Magus Sisters",
-                        "ref": "Aeons/Magus Sisters/"
                     }
+                    // {
+                    //     "name": "Cloister - Magus Sisters",
+                    //     "ref": "Aeons/Magus Sisters/"
+                    // }
                 ]
             },
             {
@@ -1322,6 +1322,118 @@
                     {
                         "name": "Monster Creations x10 - Mars Sigil",
                         "ref": "Celestial/Auron/Mars Sigil (10x Creations)/"
+                    }
+                ]
+            },
+            {
+                "name": "Cavern of the Stolen Fayth",
+                "map_locations": [{ "map": "Spira", "x": 1080, "y": 145, "size": 32}],
+                "sections": [
+                    {
+                        "name": "Megalixir x1 (Chest)",
+                        "ref": "Cavern of the Stolen Fayth/Megalixir x1 (Chest)/"
+                    },
+                    {
+                        "name": "Lv. 2 Key Sphere x1 (Chest)",
+                        "ref": "Cavern of the Stolen Fayth/Lv. 2 Key Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Fortune Sphere x1 (Chest)",
+                        "ref": "Cavern of the Stolen Fayth/Fortune Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Mega-Potion x1 (Chest)",
+                        "ref": "Cavern of the Stolen Fayth/Mega-Potion x1 (Chest)/"
+                    },
+                    {
+                        "name": "Al Bhed Primer XXV",
+                        "ref": "Al Bhed Primers/Al Bhed Primer XXV/"
+                    },
+                    {
+                        "name": "Flexible Arm (Chest)",
+                        "ref": "Cavern of the Stolen Fayth/Flexible Arm (Chest)/"
+                    },
+                    {
+                        "name": "MP Sphere x1 (Chest)",
+                        "ref": "Cavern of the Stolen Fayth/MP Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "X-Potion x2 (Chest)",
+                        "ref": "Cavern of the Stolen Fayth/X/"
+                    },
+                    // {
+                    //     "name": "Cloister - Yojimbo",
+                    //     "ref": "Aeons/Yojimbo/"
+                    // },
+                    {
+                        "name": "Super Bosses - Dark Yojimbo",
+                        "ref": "Super Bosses/Dark Yojimbo/"
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Gagazet",
+                "map_locations": [{ "map": "Spira", "x": 1080, "y": 70, "size": 32}],
+                "sections": [
+                    {
+                        "name": "Outside - Biran and Yenke",
+                        "ref": "Mt. Gagazet/Biran and Yenke/"
+                    },
+                    {
+                        "name": "Outside - 20000 gil (Chest)",
+                        "ref": "Mt. Gagazet/Outside/20000 gil (Chest)/"
+                    },
+                    {
+                        "name": "Outside - Mega-Potion x2 (Chest)",
+                        "ref": "Mt. Gagazet/Outside/Mega-Potion x2 (Chest)/"
+                    },
+                    {
+                        "name": "Outside - Defending Bracer (Chest)",
+                        "ref": "Mt. Gagazet/Outside/Defending Bracer (Chest)/"
+                    },
+                    {
+                        "name": "Outside - Lv. 4 Key Sphere x1 (Chest)",
+                        "ref": "Mt. Gagazet/Outside/Lv. 4 Key Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Outside - HP Sphere x1 (Chest)",
+                        "ref": "Mt. Gagazet/Outside/HP Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Outside - Seymour Flux",
+                        "ref": "Mt. Gagazet/Outside/Seymour Flux/"
+                    },
+                    {
+                        "name": "Outside - Saturn Crest (Chest)",
+                        "ref": "Celestial/Saturn Crest (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Lv. 1 Key Sphere x1 (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Lv. 1 Key Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Fortune Sphere x1 (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Fortune Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Return Sphere x1 (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Return Sphere x1 (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Recovery Ring (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Recovery Ring (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Pep Talk (Chest)",
+                        "ref": "Mt. Gagazet/Inside/Pep Talk (Chest)/"
+                    },
+                    {
+                        "name": "Inside - Sanctuary Keeper",
+                        "ref": "Mt. Gagazet/Inside/Sanctuary Keeper/"
+                    },
+                    {
+                        "name": "Super Bosses - Dark Anima",
+                        "ref": "Super Bosses/Dark Anima/"
                     }
                 ]
             }

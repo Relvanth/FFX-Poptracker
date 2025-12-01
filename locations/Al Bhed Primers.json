@@ -163,6 +163,12 @@
                 "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
                 "access_rules": ["$hasCalmLands"],
                 "sections": [{}]
+            },
+            {
+                "name": "Al Bhed Primer XXV",
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "access_rules": ["$hasCavern"],
+                "sections": [{}]
             }
         ]
     }

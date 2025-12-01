@@ -20,7 +20,7 @@
                         "sections": [{}]
                     },
                     {
-                        "name": "Hi-Potion (Chest)",
+                        "name": "Hi Potion x1 (Chest)",
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
                         "sections": [{}]
                     }

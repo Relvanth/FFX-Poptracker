@@ -95,7 +95,7 @@
             },
             {
                 "name": "Pilgrimage Road",
-                "access_rules": ["djosecloister", "{$hasMRR, $hasDjose}"],
+                // "access_rules": ["djosecloister", "{$hasMRR, $hasDjose}"],
                 "children": [
                     {
                         "name": "Halberd (NPC)",

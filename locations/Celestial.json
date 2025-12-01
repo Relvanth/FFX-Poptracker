@@ -72,7 +72,7 @@
                     {
                         "name": "Saturn Crest (Chest)",
                         "map_locations": [{ "map": "Mt. Gagazet Outside", "x": 0, "y": 0}],
-                        "access_rules": ["$hasGagazet"],
+                        "access_rules": ["$hasGagazet, seymourflux", "{$hasGagazet}"],
                         "sections": [{}]
                     },
                     {
@@ -238,7 +238,8 @@
                     {
                         "name": "Brotherhood",
                         "map_locations": [{ "map": "Besaid", "x": 0, "y": 0}],
-                        "access_rules": ["$hasBesaid, besaidcloister", "{$hasBesaid}"],
+                        // "access_rules": ["$hasBesaid, besaidcloister", "{$hasBesaid}"],
+                        "access_rules": ["$hasBesaid"],
                         "sections": [{}]
                     },
                     {

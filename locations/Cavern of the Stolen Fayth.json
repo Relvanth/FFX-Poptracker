@@ -1,68 +1,45 @@
 [
     {
         "name": "Cavern of the Stolen Fayth",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
+        "chest_unopened_img": "/images/Treasure.png",
+        "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
-        "sections": [
+        "access_rules": ["$hasCavern"],
+        "children": [
             {
                 "name": "Megalixir x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "sections": [{}]
             },
             {
                 "name": "Lv. 2 Key Sphere x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "sections": [{}]
             },
             {
                 "name": "Fortune Sphere x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "sections": [{}]
             },
             {
                 "name": "Mega-Potion x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "sections": [{}]
             },
             {
                 "name": "Flexible Arm (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "sections": [{}]
             },
             {
                 "name": "MP Sphere x1 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "sections": [{}]
             },
             {
                 "name": "X-Potion x2 (Chest)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            },
-            {
-                "name": "Dark Yojimbo",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Cavern of the Stolen Fayth",
-                "x": 2096,
-                "y": 1997,
-                "size": 6
+                "map_locations": [{ "map": "Cavern of the Stolen Fayth", "x": 0, "y": 0}],
+                "sections": [{}]
             }
         ]
     }

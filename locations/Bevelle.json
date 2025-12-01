@@ -30,7 +30,7 @@
             },
             {
                 "name": "Via Purifico",
-                "access_rules": ["bevellecloister", "{$hasBevelle}"],
+                // "access_rules": ["bevellecloister", "{$hasBevelle}"],
                 "children": [
                     {
                         "name": "Mega-Potion x1 (Chest)",

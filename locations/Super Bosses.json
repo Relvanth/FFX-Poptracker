@@ -9,7 +9,7 @@
             {
                 "name": "Dark Anima",
                 "map_locations": [{ "map": "Gagazet", "x": 0, "y": 0}],
-                "access_rules": ["$hasGagazet"],
+                "access_rules": ["$hasGagazet, sanctuarykeeper"],
                 "sections": [
                     {
                         "hosted_item": "darkanima",
@@ -21,7 +21,7 @@
             {
                 "name": "Dark Bahamut",
                 "map_locations": [{ "map": "Zanarkand", "x": 0, "y": 0}],
-                "access_rules": ["$hasZanarkand, yunalesca", "{$hasZanarkand}"],
+                "access_rules": ["$hasZanarkand, yunalesca"],
                 "sections": [
                     {
                         "hosted_item": "darkbahamut",
@@ -33,7 +33,7 @@
             {
                 "name": "Dark Ifrit",
                 "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                "access_rules": ["$hasBikanel, homecompletion3", "{$hasBikanel}"],
+                "access_rules": ["$hasBikanel, homecompletion3"],
                 "sections": [
                     {
                         "hosted_item": "darkifrit",
@@ -57,7 +57,7 @@
             {
                 "name": "Dark Magus Sisters",
                 "map_locations": [{ "map": "Mushroom Rock Road Entrance", "x": 0, "y": 0}],
-                "access_rules": ["$hasMRR, sinspawngui", "{$hasMRR}"],
+                "access_rules": ["$hasMRR, sinspawngui"],
                 "sections": [
                     {
                         "name": "Dark Mindy",
@@ -82,7 +82,7 @@
             {
                 "name": "Dark Shiva",
                 "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                "access_rules": ["$hasMacalania, wendigo", "{$hasMacalania}"],
+                "access_rules": ["$hasMacalania, wendigo"],
                 "sections": [
                     {
                         "hosted_item": "darkshiva",
@@ -94,7 +94,8 @@
             {
                 "name": "Dark Valefor",
                 "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 465}],
-                "access_rules": ["$hasBesaid, besaidcloister"],
+                // "access_rules": ["$hasBesaid, besaidcloister"],
+                "access_rules": ["$hasBesaid"],
                 "sections": [
                     {
                         "access_rules": ["[$hasYuna]"],
@@ -120,8 +121,7 @@
                 "name": "Penance",
                 "map_locations": [{ "map": "Airship", "x": 245, "y": 465}],
                 "access_rules": [
-                    "$hasAirship, darkanima, darkbahamut, darkcindy, darkifrit, darkixion, darkmindy, darksandy, darkshiva, darkvalefor, darkyojimbo",
-                    "{$hasAirship}"
+                    "$hasAirship, darkanima, darkbahamut, darkcindy, darkifrit, darkixion, darkmindy, darksandy, darkshiva, darkvalefor, darkyojimbo"
                 ],
                 "sections": [{}]
             }
