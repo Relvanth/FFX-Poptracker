@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "0.1.1",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.1/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Seymour Omnis & Natus locations fixed",
+                " - Celestial Weapon item mapping fixed",
+                " - Cavern of the Stolen Fayth logic fixed to include Calm Lands",
+                " - Baaj Temple Hi-Potion chest (might still be broken)",
+                " - Brotherhood ID changed (needs testing)"
+            ]
+        },
+        {
             "package_version": "0.1.0",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.0/FFX.zip",
             "sha256": "80339ca97cb75e511135c4adf02dba191f7a9c2b6387706e6ffe8cea0fbf7ffc",
