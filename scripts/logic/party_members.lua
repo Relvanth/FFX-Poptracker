@@ -74,3 +74,14 @@ function hasAllAeons()
         return false
     end
 end
+
+function hasAnyAeon()
+    if (
+        hasAnima() or hasBahamut() or hasIfrit() or hasIfrit or
+        hasMagusSisters() or hasShiva() or hasValefor() or hasYojimbo
+    ) then
+        return true
+    else
+        return false
+    end
+end

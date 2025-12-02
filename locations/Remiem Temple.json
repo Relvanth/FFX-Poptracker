@@ -9,11 +9,10 @@
             {
                 "name": "Belgemine",
                 "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
-                "access_rules": ["$hasYuna"],
+                "access_rules": ["$hasYuna, $hasAnyAeon", "{$hasCalmLands}"],
                 "children": [
                     {
                         "name": "Valefor Fight",
-                        "access_rules": ["$hasValefor", "{$hasCalmLands}"],
                         "sections": [
                             {
                                 "hosted_item": "belgeminevalefor",
@@ -24,7 +23,6 @@
                     },
                     {
                         "name": "Ifrit Fight",
-                        "access_rules": ["$hasIfrit", "{$hasCalmLands}"],
                         "sections": [
                             {
                                 "hosted_item": "belgemineifrit",
@@ -35,7 +33,6 @@
                     },
                     {
                         "name": "Ixion Fight",
-                        "access_rules": ["$hasIxion", "{$hasCalmLands}"],
                         "sections": [
                             {
                                 "hosted_item": "belgemineixion",
@@ -46,7 +43,6 @@
                     },
                     {
                         "name": "Shiva Fight",
-                        "access_rules": ["$hasShiva", "{$hasCalmLands}"],
                         "sections": [
                             {
                                 "hosted_item": "belgemineshiva",
@@ -57,7 +53,6 @@
                     },
                     {
                         "name": "Bahamut Fight (Flower Scepter)",
-                        "access_rules": ["$hasBahamut", "{$hasCalmLands}"],
                         "sections": [
                             {
                                 "hosted_item": "belgeminebahamut",

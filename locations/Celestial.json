@@ -346,8 +346,8 @@
                         "name": "Moon Sigil (Send Belgemine)",
                         "map_locations": [{ "map": "Remiem Temple", "x": 0, "y": 0}],
                         "access_rules": [
-                            "$hasCalmLands, $hasYuna, $hasAllAeons, belgeminevalefor, belgemineifrit, belgemineixion, belgemineshiva, belgeminebahamut, belgemineyojimbo, belgemineanima, belgeminemagus", 
-                            "{$hasCalmLands, $hasYuna, $hasAllAeons}"
+                            "$hasCalmLands, $hasYuna, belgeminevalefor, belgemineifrit, belgemineixion, belgemineshiva, belgeminebahamut, belgemineyojimbo, belgemineanima, belgeminemagus", 
+                            "{$hasCalmLands, $hasYuna}"
                         ],
                         "sections": [{}]
                     },
