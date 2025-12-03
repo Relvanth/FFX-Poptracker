@@ -5,7 +5,9 @@
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.0/FFX.zip",
             "sha256": "",
             "changelog": [
-                " - Read slot data for yaml options"
+                " - Read slot data for yaml options",
+                " - Removed unused location mappings",
+                " - Fixed Spirit Lance Upgrade logic"
             ]
         },
         {
