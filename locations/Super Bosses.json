@@ -94,7 +94,6 @@
             {
                 "name": "Dark Valefor",
                 "map_locations": [{ "map": "Besaid Village", "x": 245, "y": 465}],
-                // "access_rules": ["$hasBesaid, besaidcloister"],
                 "access_rules": ["$hasBesaid"],
                 "sections": [
                     {

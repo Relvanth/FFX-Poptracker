@@ -38,7 +38,7 @@
                     { "map": "Bikanel", "x": 0, "y": 0}
                 ],
                 "sections": [
-                    {"name": "S.S. Liki", "access_rules": ["$hasBesaid"]},
+                    {"name": "S.S. Liki", "access_rules": ["$hasBesaid, [$hasWakka]"]},
                     {"name": "Bikanel", "access_rules": ["$hasBikanel"]}
                 ]
             },

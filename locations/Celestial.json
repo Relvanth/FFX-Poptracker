@@ -117,8 +117,7 @@
                         "name": "Onion Knight (Chest)",
                         "map_locations": [{ "map": "Baaj Temple", "x": 0, "y": 0}],
                         "access_rules": [
-                            "$hasBaaj, geosgaeno",
-                            "{$hasBaaj, flint:1, witheredbouquet:1}",
+                            "$hasBaaj, geosgaeno, celestialmirror",
                             "{$hasBaaj, klikk}"
                         ],
                         "sections": [{}]
