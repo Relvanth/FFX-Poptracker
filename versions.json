@@ -1,6 +1,24 @@
 {
     "versions": [
         {
+            "package_version": "0.1.10",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.10/FFX.zip",
+            "sha256": "1e5c8eb348969d749240bb6709199b2e4a8d795edca7f40b2c98ca608cab1dd7",
+            "changelog": [
+                " - S.S. Liki bosses require Wakka to be in logic",
+                " - Fixed ordering of Miihen Highroad checks on World Map",
+                " - Blossom Crown requires Gagazet",
+                " - Onion Knight logic requires Geosgaeno",
+                " - Update Seymour portrait",
+                " - Updated logic references for better forward maintenance",
+                " - Various Updates for UT Compatibility",
+                " - - Cleaned up JSON comments",
+                " - - Updated default map location sizes",
+                " - - Removed most discrete sizes, where unnecessary",
+                " - **Added boss logic rules as per the FFX Apworld & UT**"
+            ]
+        },
+        {
             "package_version": "0.1.9",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.9/FFX.zip",
             "sha256": "ac261a6bc1da2224aed0915b82d1fd2d597c17eec4d012203cf7ce9928b09f17",
