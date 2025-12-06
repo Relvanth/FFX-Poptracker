@@ -7,5 +7,6 @@ Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
 
-
+-- Region Watches
+ScriptHost:AddWatchForCode("UpdateMaxLogic", "region:besaid", UpdateRegionLogic)
         

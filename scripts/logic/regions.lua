@@ -123,11 +123,18 @@ RegionDifficulty = {
 -- }
 CurrentMaxDifficulty = 1
 
+function UpdateRegionLogic(Region)
+    print(CurrentMaxDifficulty)
+    print(Region)
+    CurrentMaxDifficulty = RegionDifficulty.Region
+    print(CurrentMaxDifficulty)
+end
+
 function CheckLogic(Region)
     local LogicDifficulty = Tracker:ProviderCountForCode("logicdifficulty")
 
     if (RegionDifficulty[Region] > CurrentMaxDifficulty) then
-        print(RegionDifficulty[Region])
+        -- print(RegionDifficulty[Region])
     end
 end
 
