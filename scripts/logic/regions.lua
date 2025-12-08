@@ -22,35 +22,35 @@ RegionDifficulty = {
     ["omegaruins"] = 18
 }
 
--- RegionToLocation = {
---     ["guadosalam"] = "Guadosalam",
---     ["baajtemple"] = "Baaj Temple",
---     ["besaid"] = "Besaid",
---     ["kilika"] = "Kilika",
---     ["luca"] = "Luca",
---     ["miihenhighroad"] = "Miihen Highroad",
---     ["mushroomrockroad"] = "Mushroom Rock Road",
---     ["djose"] = "Djose",
---     ["moonflow"] = "Moonflow",
---     ["thunderplains"] = "Thunder Plains",
---     ["macalania"] = "Macalania",
---     ["bikanel"] = "Bikanel",
---     ["airship"] = "Airship",
---     ["bevelle"] = "Bevelle",
---     ["calmlands"] = "Calm Lands",
---     ["cavernofthestolenfayth"] = "Cavern of the Stolen Fayth",
---     ["gagazet"] = "Mt. Gagazet",
---     ["zanarkand"] = "Zanarkand",
---     ["sin"] = "Inside Sin",
---     ["omegaruins"] = "Omega Ruins"
--- }
+RegionOrder = {
+    "guadosalam",
+    "baajtemple",
+    "besaid",
+    "kilika",
+    "luca",
+    "miihenhighroad",
+    "mushroomrockroad",
+    "djose",
+    "moonflow",
+    "thunderplains",
+    "macalania",
+    "bikanel",
+    "airship",
+    "bevelle",
+    "calmlands",
+    "cavernofthestolenfayth",
+    "gagazet",
+    "zanarkand",
+    "sin",
+    "omegaruins",
+}
 
 RegionAccessibility = {
-    ["guadosalam"] = ACCESS_NORMAL,
-    ["baajtemple"] = ACCESS_NORMAL,
-    ["besaid"] = ACCESS_NORMAL,
-    ["kilika"] = ACCESS_NORMAL,
-    ["luca"] = ACCESS_NORMAL,
+    ["guadosalam"] = ACCESS_NONE,
+    ["baajtemple"] = ACCESS_NONE,
+    ["besaid"] = ACCESS_NONE,
+    ["kilika"] = ACCESS_NONE,
+    ["luca"] = ACCESS_NONE,
     ["miihenhighroad"] = ACCESS_NONE,
     ["mushroomrockroad"] = ACCESS_NONE,
     ["djose"] = ACCESS_NONE,
@@ -68,6 +68,7 @@ RegionAccessibility = {
     ["omegaruins"] = ACCESS_NONE
 }
 
+-- Must be in difficulty order
 RegionAccessRegions = {
     ["guadosalam"] = {},
     ["baajtemple"] = {},
@@ -91,58 +92,66 @@ RegionAccessRegions = {
     ["omegaruins"] = {}
 }
 
+-- Updates RegionAccessRegions with list of regions required to access new region, based on difficulty
 function UpdateAccessRegions()
     local LogicDifficulty = Tracker:ProviderCountForCode("logicdifficulty")
     
-    for region, level in pairs(RegionDifficulty) do
-        if (level > 5) then
-            for other_region, other_level in pairs(RegionDifficulty) do
-                if (level > other_level and other_level >= level - LogicDifficulty) then
-                    table.insert(RegionAccessRegions[region], other_region)
+    for Region, Level in pairs(RegionDifficulty) do
+        if (Level >= 5) then
+            RegionAccessRegions[Region] = {}
+            for OtherRegion, OtherLevel in pairs(RegionDifficulty) do
+                if (Level > OtherLevel and OtherLevel >= Level - LogicDifficulty) then
+                    table.insert(RegionAccessRegions[Region], OtherRegion)
                 end
             end
         end
     end
 
     -- Print table
-    for region, value in pairs(RegionAccessRegions) do
-        for _, regions in ipairs(value) do
-            print(region .. " | " .. regions)
-        end
-    end
+    -- for region, value in pairs(RegionAccessRegions) do
+    --     for _, regions in ipairs(value) do
+    --         print(region .. " | " .. regions)
+    --     end
+    -- end
 
+    UpdateAccessLevels()
 end
 
-function CheckRegionLogic(Region)
-    print("ENTERING CHECK_REGION")
-    local level = RegionDifficulty[Region]
+-- Updates RegionAccessibility based on RegionAccessRegions when a new region is gained
+function UpdateAccessLevels()
 
-    if (level < 5 and has(Region)) then
-        --If region level < 5, always have access
-        return true
-    else
-        local LogicDifficulty = Tracker:ProviderCountForCode("logicdifficulty")
+    for Index, Region in ipairs(RegionOrder) do
+        -- print(Index .. " | " .. Region)
+        -- If you don't have the region item, no access
+        if (Tracker:FindObjectForCode(Region).Active == false) then
+            -- print("REGION OBJECT FALSE: " .. Region)
+            RegionAccessibility[Region] = ACCESS_NONE
         
-        --Get list of regions within difficulty range of Region
-        local appropriate_level_regions = {}
-        for other_region, other_level in pairs(RegionDifficulty) do
-            if (level > other_level and other_level >= level - LogicDifficulty) then
-                table.insert(appropriate_level_regions, other_region)
-            end
+        -- Has region item
+        else
+            -- Difficulty < 5 --> Always have access
+            if (RegionDifficulty[Region] < 5) then
+                -- print("REGION DIFFICULTY < 5: " .. Region)
+                RegionAccessibility[Region] = ACCESS_NORMAL
+            
+            -- Check RegionAccessRegions to see if access regions have normal access
+            else
+                for CheckRegion, AccessRegion in pairs(RegionAccessRegions[Region]) do
+                    if (RegionAccessibility[AccessRegion] == ACCESS_NORMAL) then
+                        -- print(AccessRegion .. " | ACCESS_NORMAL")
+                        RegionAccessibility[Region] = ACCESS_NORMAL
+                        break
+                    else
+                        -- print(AccessRegion .. " | ACCESS_SEQUENCEBREAK")
+                        RegionAccessibility[Region] = ACCESS_SEQUENCEBREAK
+                    end
+                end
+            end            
         end
-
-        -- Print regions in logic from region
-        for index, test in ipairs(appropriate_level_regions) do
-            print(test)
-        end
-
-        -- Return true if location in table is accessible 
-        for index, other_region in ipairs(appropriate_level_regions) do
-            -- if () then
-            --     return true
-            -- end
-            return ACCESS_SEQUENCEBREAK
-        end
-        return false
     end
+end
+
+function CheckAccessLevel(Region)
+    -- print("CHECK ACCESS: " .. Region)
+    return RegionAccessibility[Region]
 end
