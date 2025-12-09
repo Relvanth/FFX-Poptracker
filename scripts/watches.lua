@@ -9,7 +9,9 @@ Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
 
 -- Region Watches
 ScriptHost:AddWatchForCode("update access levels: airship", "airship", UpdateAccessLevels)
+ScriptHost:AddWatchForCode("update access levels: airshipsin", "airshipsin", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: baajtemple", "baajtemple", UpdateAccessLevels)
+ScriptHost:AddWatchForCode("update access levels: baajtemple2", "baajtemple2", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: besaid", "besaid", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: bevelle", "bevelle", UpdateAccessLevels)
 ScriptHost:AddWatchForCode("update access levels: bikanel", "bikanel", UpdateAccessLevels)

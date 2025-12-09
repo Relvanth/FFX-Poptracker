@@ -982,11 +982,20 @@
         "initial_active_state": false,
         "codes": "besaiddock5"
     },
+    
+    //RegionAccess misc items
     {
         "name": "Airship Sin",
         "type": "toggle",
         "capturable": true,
         "initial_active_state": false,
         "codes": "airshipsin"
+    },
+    {
+        "name": "Baaj Temple Cloister",
+        "type": "toggle",
+        "capturable": true,
+        "initial_active_state": false,
+        "codes": "baajtemple2"
     }
 ]
