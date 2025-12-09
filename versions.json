@@ -1,9 +1,9 @@
 {
     "versions": [
         {
-            "package_version": "0.1.12",
-            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.12/FFX.zip",
-            "sha256": "cc0bf60b2abec447187b70c3e26b15773db00509fe4d3510085c0ac2f1b81d59",
+            "package_version": "0.1.12_Beta",
+            "download_url": "",
+            "sha256": "",
             "changelog": [
                 " - Split Bikanel Oasis from Eastern Desert locations",
                 " - Slot data reads from multiworld (available from next apworld version)",
