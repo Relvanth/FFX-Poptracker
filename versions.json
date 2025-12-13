@@ -1,6 +1,35 @@
 {
     "versions": [
         {
+            "package_version": "0.1.11",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.11/FFX.zip",
+            "sha256": "3646295549dc093b19d6007744b02ab00ce75c6242fb57da9526cc851e10f1e6",
+            "changelog": [
+                " - Lua logic Cleanup",
+                " - Logic references updated for Celestials & Super Bosses",
+                " - Logic difficulty settings & supporting watches / functions",
+                " - Rewrite of access rules to make use of AccessibilityLevels"
+            ]
+        },
+        {
+            "package_version": "0.1.10",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.10/FFX.zip",
+            "sha256": "ebecaa6cbd73664b44d37361e1b0ae00e06ac39f3b90d094271a39a25006638c",
+            "changelog": [
+                " - S.S. Liki bosses require Wakka to be in logic",
+                " - Fixed ordering of Miihen Highroad checks on World Map",
+                " - Blossom Crown requires Gagazet",
+                " - Onion Knight logic requires Geosgaeno",
+                " - Update Seymour portrait",
+                " - Updated logic references for better forward maintenance",
+                " - Various Updates for UT Compatibility",
+                " - - Cleaned up JSON comments",
+                " - - Updated default map location sizes",
+                " - - Removed most discrete sizes, where unnecessary",
+                " - **Added boss logic rules as per the FFX Apworld & UT**"
+            ]
+        },
+        {
             "package_version": "0.1.9",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.1.9/FFX.zip",
             "sha256": "ac261a6bc1da2224aed0915b82d1fd2d597c17eec4d012203cf7ce9928b09f17",

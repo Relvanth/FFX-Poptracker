@@ -4,7 +4,7 @@
         "chest_unopened_img": "/images/Treasure.png",
         "chest_opened_img": "/images/TreasureBW.png",
         "overlay_background": "#000000",
-        "access_rules": ["$hasMiihen"],
+        "access_rules": ["^$CheckAccessLevel|miihenhighroad"],
         "children": [
             {
                 "name": "South",
@@ -102,6 +102,7 @@
                     {
                         "name": "Chocobo Eater",
                         "map_locations": [{ "map": "Miihen Highroad Agency", "x": 0, "y": 0}],
+                        "access_rules": ["[$hasPartyMembers|3]"],
                         "sections": [
                             {
                                 "hosted_item": "chocoboeater",
@@ -114,7 +115,7 @@
             },
             {
                 "name": "North",
-                "access_rules": ["chocoboeater", "{$hasMiihen}"],
+                "access_rules": ["chocoboeater"],
                 "children": [
                     {
                         "name": "Heat Lance (Chest)",
