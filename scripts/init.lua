@@ -43,3 +43,5 @@ function OnFrameHandler()
 end
 require("scripts/watches")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
+
+UpdateAccessRegions()

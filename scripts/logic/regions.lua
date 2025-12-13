@@ -1,80 +1,195 @@
 -- Region Logic
-function hasAirship()
-    return has("region:airship")
+RegionDifficulty = {
+    ["guadosalam"] = 1,
+    ["baajtemple"] = 1,
+    ["besaid"] = 2,
+    ["kilika"] = 3,
+    ["luca"] = 4,
+    ["miihenhighroad"] = 5,
+    ["mushroomrockroad"] = 6,
+    ["djose"] = 7,
+    ["moonflow"] = 8,
+    ["thunderplains"] = 9,
+    ["macalania"] = 10,
+    ["bikanel"] = 11,
+    ["airship"] = 12,
+    ["bevelle"] = 12,
+    ["calmlands"] = 13,
+    ["cavernofthestolenfayth"] = 13,
+    ["gagazet"] = 14,
+    ["baajtemple2"] = 15,
+    ["zanarkand"] = 15,
+    ["airshipsin"] = 16,
+    ["sin"] = 16,
+    ["omegaruins"] = 17,
+    ["superbosses"] = 18
+}
+
+RegionOrder = {
+    "guadosalam",
+    "baajtemple",
+    "besaid",
+    "kilika",
+    "luca",
+    "miihenhighroad",
+    "mushroomrockroad",
+    "djose",
+    "moonflow",
+    "thunderplains",
+    "macalania",
+    "bikanel",
+    "airship",
+    "bevelle",
+    "calmlands",
+    "cavernofthestolenfayth",
+    "gagazet",
+    "baajtemple2",
+    "zanarkand",
+    "airshipsin",
+    "sin",
+    "omegaruins",
+    "superbosses"
+}
+
+RegionAccessibility = {
+    ["guadosalam"] = ACCESS_NONE,
+    ["baajtemple"] = ACCESS_NONE,
+    ["besaid"] = ACCESS_NONE,
+    ["kilika"] = ACCESS_NONE,
+    ["luca"] = ACCESS_NONE,
+    ["miihenhighroad"] = ACCESS_NONE,
+    ["mushroomrockroad"] = ACCESS_NONE,
+    ["djose"] = ACCESS_NONE,
+    ["moonflow"] = ACCESS_NONE,
+    ["thunderplains"] = ACCESS_NONE,
+    ["macalania"] = ACCESS_NONE,
+    ["bikanel"] = ACCESS_NONE,
+    ["airship"] = ACCESS_NONE,
+    ["bevelle"] = ACCESS_NONE,
+    ["calmlands"] = ACCESS_NONE,
+    ["cavernofthestolenfayth"] = ACCESS_NONE,
+    ["gagazet"] = ACCESS_NONE,
+    ["baajtemple2"] = ACCESS_NONE,
+    ["zanarkand"] = ACCESS_NONE,
+    ["airshipsin"] = ACCESS_NONE,
+    ["sin"] = ACCESS_NONE,
+    ["omegaruins"] = ACCESS_NONE,
+    ["superbosses"] = ACCESS_NONE
+}
+
+-- Must be in difficulty order
+RegionAccessRegions = {
+    ["guadosalam"] = {},
+    ["baajtemple"] = {},
+    ["besaid"] = {},
+    ["kilika"] = {},
+    ["luca"] = {},
+    ["miihenhighroad"] = {},
+    ["mushroomrockroad"] = {},
+    ["djose"] = {},
+    ["moonflow"] = {},
+    ["thunderplains"] = {},
+    ["macalania"] = {},
+    ["bikanel"] = {},
+    ["airship"] = {},
+    ["bevelle"] = {},
+    ["calmlands"] = {},
+    ["cavernofthestolenfayth"] = {},
+    ["gagazet"] = {},
+    ["baajtemple2"] = {},
+    ["zanarkand"] = {},
+    ["airshipsin"] = {},
+    ["sin"] = {},
+    ["omegaruins"] = {},
+    ["superbosses"] = {}
+}
+
+-- Updates RegionAccessRegions with list of regions required to access new region, based on difficulty
+function UpdateAccessRegions()
+    local LogicDifficulty = Tracker:ProviderCountForCode("logicdifficulty")
+    
+    for Region, Level in pairs(RegionDifficulty) do
+        if (Level >= 5) then
+            RegionAccessRegions[Region] = {}
+            for OtherRegion, OtherLevel in pairs(RegionDifficulty) do
+                if (Level > OtherLevel and OtherLevel >= Level - LogicDifficulty) then
+                    table.insert(RegionAccessRegions[Region], OtherRegion)
+                end
+            end
+        end
+    end
+
+    -- Print table
+    -- for region, value in pairs(RegionAccessRegions) do
+    --     for _, regions in ipairs(value) do
+    --         print(region .. " | " .. regions)
+    --     end
+    -- end
+
+    UpdateAccessLevels()
 end
 
-function hasBaaj()
-    return has("region:baajtemple")
+-- Updates RegionAccessibility based on RegionAccessRegions when a new region is gained
+function UpdateAccessLevels()
+
+    for Index, Region in ipairs(RegionOrder) do
+        -- print(Index .. " | " .. Region)
+        -- If you don't have the region item, no access
+        if (Tracker:FindObjectForCode(Region).Active == false) then
+            -- print("REGION OBJECT FALSE: " .. Region)            
+            RegionAccessibility[Region] = ACCESS_NONE
+
+        -- Has region item
+        else
+            -- Difficulty < 5 --> Always have access
+            if (RegionDifficulty[Region] < 5) then
+                -- print("REGION DIFFICULTY < 5: " .. Region)
+                RegionAccessibility[Region] = ACCESS_NORMAL
+            
+            -- Check RegionAccessRegions to see if access regions have normal access
+            else
+                for CheckRegion, AccessRegion in pairs(RegionAccessRegions[Region]) do
+                    if (RegionAccessibility[AccessRegion] == ACCESS_NORMAL) then
+                        -- print(CheckRegion .. " | " .. AccessRegion .. " | ACCESS_NORMAL")
+                        RegionAccessibility[Region] = ACCESS_NORMAL
+                        break
+                    else
+                        -- print(AccessRegion .. " | ACCESS_SEQUENCEBREAK")
+                        RegionAccessibility[Region] = ACCESS_SEQUENCEBREAK
+                    end
+                end
+            end            
+        end
+    end
 end
 
-function hasBesaid()
-    return has("region:besaid")
+function CheckAccessLevel(Region)
+    -- print("CHECK ACCESS: " .. Region .. " | " .. RegionAccessibility[Region])
+    return RegionAccessibility[Region]
 end
 
-function hasBevelle()
-    return has("region:bevelle")
-end
-
-function hasBikanel()
-    return has("region:bikanel")
-end
-
-function hasCalmLands()
-    return has("region:calmlands")
-end
-
-function hasCavern()
-    return has("region:cavernofthestolenfayth")
-end
-
-function hasDjose()
-    return has("region:djose")
-end
-
-function hasGagazet()
-    return has("region:mt.gagazet")
-end
-
-function hasGuadosalam()
-    return has("region:guadosalam")
-end
-
-function hasKilika()
-    return has("region:kilika")
-end
-
-function hasLuca()
-    return has("region:luca")
-end
-
-function hasMacalania()
-    return has("region:macalania")
-end
-
-function hasMiihen()
-    return has("region:miihenhighroad")
-end
-
-function hasMoonflow()
-    return has("region:moonflow")
-end
-
-function hasMRR()
-    return has("region:mushroomrockroad")
-end
-
-function hasOmega()
-    return has("region:omegaruins")
-end
-
-function hasSin()
-    return has("region:sin")
-end
-
-function hasThunderPlains()
-    return has("region:thunderplains")
-end
-
-function hasZanarkand()
-    return has("region:zanarkandruins")
+function CheckGoalRequirement()
+    local goal = Tracker:FindObjectForCode("goalrequirement").CurrentStage
+    
+    if (goal == 0) then
+        -- No Requirements
+        return ACCESS_NORMAL
+    elseif (goal == 1) then
+        -- Party Members
+        if (hasPartyMembers(Tracker:ProviderCountForCode("requiredpartymembers"))) then
+            return ACCESS_NORMAL
+        else
+            return ACCESS_NONE
+        end
+    elseif (goal == 2) then
+        -- Pilgrimage (Unsupported, data not available from @Moonflow/Smoke Bomb x6 (Lose Aeon Fight)
+        return ACCESS_NORMAL
+    elseif (goal == 3) then
+        -- Party Members & Aeons
+        if (hasPartyMembersAndAeons(Tracker:ProviderCountForCode("requiredpartymembers"))) then
+            return ACCESS_NORMAL
+        else
+            return ACCESS_NONE
+        end
+    end
 end
