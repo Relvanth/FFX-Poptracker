@@ -42,6 +42,16 @@
                         ]
                     },
                     {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "sections": [{"name": "Biggs", "ref": "Blitzball Recruits/Biggs"}]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "sections": [{"name": "Wedge", "ref": "Blitzball Recruits/Wedge"}]
+                    },
+                    {
                         "name": "Inside Back Right Locker (Event)",
                         "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
                         "access_rules": ["oblitzerator"],

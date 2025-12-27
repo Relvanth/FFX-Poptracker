@@ -177,6 +177,11 @@
                         ]
                     },
                     {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{ "map": "Besaid Village", "x": 0, "y": 0}],
+                        "sections": [{"name": "Vilucha", "ref": "Blitzball Recruits/Vilucha"}]
+                    },
+                    {
                         "name": "Cloister",
                         "map_locations": [{ "map": "Besaid Village", "x": 0, "y": 0}],
                         "sections": [

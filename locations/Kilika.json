@@ -28,6 +28,11 @@
                                 "ref": "Al Bhed Primers/Al Bhed Primer IV/Kilika"
                             }
                         ]
+                    },
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{ "map": "Kilika Village", "x": 0, "y": 0}],
+                        "sections": [{"name": "Tatts", "ref": "Blitzball Recruits/Tatts"}]
                     }
                 ]
             },
@@ -91,6 +96,11 @@
                 "name": "Temple",
                 "access_rules": ["geneaux"],
                 "children": [
+                    {
+                        "name": "Blitzball Recruit",
+                        "map_locations": [{ "map": "Kilika Woods", "x": 0, "y": 0}],
+                        "sections": [{"name": "Mep", "ref": "Blitzball Recruits/Mep"}]
+                    },
                     {
                         "name": "Cloister",
                         "map_locations": [{ "map": "Kilika Woods", "x": 0, "y": 0}],

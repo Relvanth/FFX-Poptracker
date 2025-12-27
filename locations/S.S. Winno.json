@@ -22,6 +22,11 @@
                 ]
             },
             {
+                "name": "Blitzball Recruit",
+                "map_locations": [{ "map": "S.S. Winno", "x": 0, "y": 0}],
+                "sections": [{"name": "Kiyuri", "ref": "Blitzball Recruits/Kiyuri"}]
+            },
+            {
                 "name": "Top Floor, Counting Gulls (NPC - 11 Seagulls)",
                 "map_locations": [{ "map": "S.S. Winno", "x": 0, "y": 0}],
                 "sections": [{"name": "Ace Wizard"}]
