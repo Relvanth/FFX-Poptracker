@@ -110,6 +110,16 @@
                 "name": "City",
                 "children": [
                     {
+                        "name": "Bottom of Stairs, Left Side (Primer)",
+                        "map_locations": [{"map": "Luca Stadium", "x": 0, "y": 0}],
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer VII",
+                                "ref": "Al Bhed Primers/Al Bhed Primer VII/Luca"
+                            }
+                        ]
+                    },
+                    {
                         "name": "Staircase Leading to Mi'ihen (Chest)",
                         "map_locations": [{"map": "Luca City", "x": 0, "y": 0}],
                         "sections": [{"name": "1000 Gil"}]

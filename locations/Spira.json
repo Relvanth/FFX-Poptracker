@@ -282,12 +282,12 @@
                         "ref": "Luca/Dock/Dock 5 - End, Hidden Behind Boxes (Chests)/Magic Sphere x1"
                     },
                     {
-                        "name": "City Limits - 1000 Gil (Chest)",
-                        "ref": "Luca/City/Staircase Leading to Mi'ihen (Chest)/1000 Gil"
-                    },
-                    {
                         "name": "Theater Reception - Al Bhed Primer VII",
                         "ref": "Al Bhed Primers/Al Bhed Primer VII/Luca"
+                    },
+                    {
+                        "name": "City Limits - 1000 Gil (Chest)",
+                        "ref": "Luca/City/Staircase Leading to Mi'ihen (Chest)/1000 Gil"
                     },
                     {
                         "name": "Dock - Oblitzerator",
@@ -321,103 +321,103 @@
                 "sections": [
                     {
                         "name": "South - Hi-Potion (Yellow Shirt NPC)",
-                        "ref": "Miihen Highroad/South/Hi-Potion (Yellow Shirt NPC)/"
+                        "ref": "Miihen Highroad/South/Yellow Man, Looping South to North (NPC)/Hi-Potion"
                     },
                     {
                         "name": "South - Hunters Spear (Blue Shirt NPC)",
-                        "ref": "Miihen Highroad/South/Hunters Spear (Blue Shirt NPC)/"
+                        "ref": "Miihen Highroad/South/Blue-White Man, Looping North to South (NPC)/Hunters Spear"
                     },
                     {
                         "name": "South - Antidote x2 (Red Skirt NPC)",
-                        "ref": "Miihen Highroad/South/Antidote x2 (Red Skirt NPC)/"
+                        "ref": "Miihen Highroad/South/Red Skirt Girl, Pacing Between Maechen and Ruins (NPC)/Antidote x2"
                     },
                     {
                         "name": "South - Ice Brand (Chest)",
-                        "ref": "Miihen Highroad/South/Ice Brand (Chest)/"
+                        "ref": "Miihen Highroad/South/Behind Ruins on Left (Chest)/Ice Brand"
                     },
                     {
                         "name": "South - Remedy x1 (Chest)",
-                        "ref": "Miihen Highroad/South/Remedy x1 (Chest)/"
+                        "ref": "Miihen Highroad/South/Behind Elma, North Side (Chest)/Remedy x1"
                     },
                     {
                         "name": "South - Red Ring (Crusader NPC)",
-                        "ref": "Miihen Highroad/South/Red Ring (Crusader NPC)/"
+                        "ref": "Miihen Highroad/South/Crusader Running East then West (NPC)/Red Ring"
                     },
                     {
                         "name": "South - Soft x3 (Boy NPC)",
-                        "ref": "Miihen Highroad/South/Soft x3 (Boy NPC)/"
+                        "ref": "Miihen Highroad/South/Boy Before Kicking the Blitzball (NPC)/Soft x3"
                     },
                     {
                         "name": "Central - Lv. 1 Key Sphere x1 (Purple Crusader NPC)",
-                        "ref": "Miihen Highroad/Central/Lv. 1 Key Sphere x1 (Purple Crusader NPC)/"
+                        "ref": "Miihen Highroad/Central/Purple Crusader, Looping South to North (NPC)/Lv. 1 Key Sphere x1"
                     },
                     {
                         "name": "Central - Antidote x4 (Woman in Yellow NPC)",
-                        "ref": "Miihen Highroad/Central/Antidote x4 (Woman in Yellow NPC)/"
+                        "ref": "Miihen Highroad/Central/Female Yellow Crusader, Looping North to South (NPC)/Antidote x4"
                     },
                     {
                         "name": "Central - 2000 gil (Chest)",
-                        "ref": "Miihen Highroad/Central/2000 gil (Chest)/"
+                        "ref": "Miihen Highroad/Central/East Alcove (Chest)/2000 gil"
                     },
                     {
                         "name": "Central - 600 gil (Yellow Crusader NPC)",
-                        "ref": "Miihen Highroad/Central/600 gil (Yellow Crusader NPC)/"
+                        "ref": "Miihen Highroad/Central/Yellow Crusader, Looping North to South (NPC)/600 gil"
                     },
                     {
                         "name": "Central - Ether x1 (NPC)",
-                        "ref": "Miihen Highroad/Central/Ether x1 (NPC)/"
+                        "ref": "Miihen Highroad/Central/Purple Crusader Freaking Out, West Side (NPC)/Ether x1"
                     },
                     {
                         "name": "Central - Hi-Potion x1 (NPC)",
-                        "ref": "Miihen Highroad/Central/Hi-Potion x1 (NPC)/"
+                        "ref": "Miihen Highroad/Central/Woman on North End, West Side (NPC)/Hi-Potion x1"
                     },
                     {
                         "name": "Central - Eye Drops x3 (Chest)",
-                        "ref": "Miihen Highroad/Central/Eye Drops x3 (Chest)/"
+                        "ref": "Miihen Highroad/Central/North Exit (Chest)/Eye Drops x3"
                     },
                     {
                         "name": "Agency - Lv. 1 Key Sphere x1 (NPC)",
-                        "ref": "Miihen Highroad/Agency/Lv. 1 Key Sphere x1 (NPC)/"
+                        "ref": "Miihen Highroad/Agency/Green NPC After Resting (Event)/Lv. 1 Key Sphere x1"
                     },
                     {
                         "name": "Agency - Mega-Potion (NPC)",
-                        "ref": "Miihen Highroad/Agency/Mega-Potion (NPC)/"
+                        "ref": "Miihen Highroad/Agency/Exit After Resting (Event)/Mega-Potion"
                     },
                     {
                         "name": "Agency - Al Bhed Primer VIII",
-                        "ref": "Al Bhed Primers/Al Bhed Primer VIII/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer VIII/Miihen Highroad"
                     },
                     {
                         "name": "Agency - Chocobo Eater",
-                        "ref": "Miihen Highroad/Agency/Chocobo Eater/"
+                        "ref": "Miihen Highroad/Agency/Defeat Chocobo Eater (Boss)/Chocobo Eater"
                     },
                     {
-                        "name": "North - Heat Lance (Chest)",
-                        "ref": "Miihen Highroad/North/Heat Lance (Chest)/"
+                        "name": "Newroad - Heat Lance (Chest)",
+                        "ref": "Miihen Highroad/North/Chocobo Jump North Peak of Bend (Chest)/Heat Lance"
                     },
                     {
-                        "name": "North - Al Bhed Primer IX",
-                        "ref": "Al Bhed Primers/Al Bhed Primer IX/"
+                        "name": "Newroad - Al Bhed Primer IX",
+                        "ref": "Al Bhed Primers/Al Bhed Primer IX/Miihen Highroad"
                     },
                     {
-                        "name": "North - Hi-Potion x2 (Chest)",
-                        "ref": "Miihen Highroad/North/Hi-Potion x2 (Chest)/"
+                        "name": "Newroad - Hi-Potion x2 (Chest)",
+                        "ref": "Miihen Highroad/North/Left by Child Soldiers (Chest)/Hi-Potion x2"
                     },
                     {
-                        "name": "North - Thunder Blade (Chest)",
-                        "ref": "Miihen Highroad/North/Thunder Blade (Chest)/"
+                        "name": "Oldroad - Thunder Blade (Chest)",
+                        "ref": "Miihen Highroad/North/Chocobo Jump, Left Side (Chests)/Thunder Blade"
                     },
                     {
-                        "name": "North - Scout (Chest)",
-                        "ref": "Miihen Highroad/North/Scout (Chest)/"
+                        "name": "Oldroad - Scout (Chest)",
+                        "ref": "Miihen Highroad/North/Chocobo Jump, Left Side (Chests)/Scout"
                     },
                     {
-                        "name": "North - Fortune Sphere (Chest)",
-                        "ref": "Miihen Highroad/North/Fortune Sphere (Chest)/"
+                        "name": "Oldroad - Fortune Sphere (Chest)",
+                        "ref": "Miihen Highroad/North/Chocobo Jump, Alcove on East Side (Chest)/Fortune Sphere"
                     },
                     {
-                        "name": "North - Mars Crest (Chest)",
-                        "ref": "Celestial/Auron/Mars Crest (Chest)/"
+                        "name": "Oldroad - Mars Crest (Chest)",
+                        "ref": "Celestial/Auron/Mars Crest"
                     }
                 ]
             },
