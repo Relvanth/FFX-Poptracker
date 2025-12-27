@@ -427,103 +427,91 @@
                 "sections": [
                     {
                         "name": "Entrance - Remedy x1 (Near Grey Helmet NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Remedy x1 (Near Grey Helmet NPC)/"
+                        "ref": "Mushroom Rock Road/Entrance/Left Near Southern Exit (NPC)/Remedy x1"
                     },
                     {
                         "name": "Entrance - Tough Bangle (Gray Helmet NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Tough Bangle (Gray Helmet NPC)/"
+                        "ref": "Mushroom Rock Road/Entrance/Right Near Southern Exit (NPC)/Tough Bangle"
                     },
                     {
                         "name": "Entrance - Ether x1 (Purple Helmet NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Ether x1 (Purple Helmet NPC)/"
+                        "ref": "Mushroom Rock Road/Entrance/Pacing Between Blue Commander and South Exit (NPC)/Ether x1"
                     },
                     {
                         "name": "Entrance - Hi-Potion x1 (Woman in Blue NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Hi-Potion x1 (Woman in Blue NPC)/"
+                        "ref": "Mushroom Rock Road/Entrance/Blue Commander on Left Side (NPC)/Hi-Potion x1"
                     },
                     {
                         "name": "Entrance - Phoenix Down x2 (Blue Shirt Crusader NPC)",
-                        "ref": "Mushroom Rock Road/Entrance/Phoenix Down x2 (Blue Shirt Crusader NPC)/"
+                        "ref": "Mushroom Rock Road/Entrance/Pacing Between Blue Commander and North Exit (NPC)/Phoenix Down x2"
                     },
                     {
                         "name": "Valley - Hi-Potion x1 (Woman NPC near Save Point)",
-                        "ref": "Mushroom Rock Road/Valley/Hi-Potion x1 (Woman NPC near Save Point)/"
+                        "ref": "Mushroom Rock Road/Valley/Woman Before First Elevator (NPC)/Hi-Potion x1"
                     },
                     {
                         "name": "Valley - 1000 gil (Chest)",
-                        "ref": "Mushroom Rock Road/Valley/1000 gil (Chest)/"
+                        "ref": "Mushroom Rock Road/Valley/North Alcove After First Elevator (Chest & NPC)/1000 gil"
                     },
                     {
                         "name": "Valley - Potion x10 (NPC near chest)",
-                        "ref": "Mushroom Rock Road/Valley/Potion x10 (NPC near chest)/"
+                        "ref": "Mushroom Rock Road/Valley/North Alcove After First Elevator (Chest & NPC)/Potion x10"
                     },
                     {
                         "name": "Valley - Remedy x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Valley/Remedy x1 (Chest)/"
+                        "ref": "Mushroom Rock Road/Valley/Left Side, As Trail Turns East (Chest)/Remedy x1"
                     },
                     {
                         "name": "Valley - Hi-Potion x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Valley/Hi-Potion x1 (Chest)/"
+                        "ref": "Mushroom Rock Road/Valley/Behind Pillar, Before Second Elevator (Chest)/Hi-Potion x1"
                     },
                     {
                         "name": "Precipice - X-Potion x1 (NPC near lift)",
-                        "ref": "Mushroom Rock Road/Precipice/X-Potion x1 (NPC near lift)/"
+                        "ref": "Mushroom Rock Road/Precipice/Near South Elevator (NPC)/X-Potion x1"
                     },
                     {
                         "name": "Precipice - Serene Armlet (Chest)",
-                        "ref": "Mushroom Rock Road/Precipice/Serene Armlet (Chest)/"
+                        "ref": "Mushroom Rock Road/Precipice/Below West Elevator (Chest)/Serene Armlet"
                     },
                     {
                         "name": "Precipice - Al Bhed Primer X",
-                        "ref": "Al Bhed Primers/Al Bhed Primer X/"
+                        "ref": "Al Bhed Primers/Al Bhed Primer X/Mushroom Rock Road"
                     },
                     {
                         "name": "Precipice - 400 gil (NPC near elevator)",
-                        "ref": "Mushroom Rock Road/Precipice/400 gil (NPC near elevator)/"
+                        "ref": "Mushroom Rock Road/Precipice/Pacing Between North Elevator and East Ridge (NPC)/400 gil"
                     },
                     {
                         "name": "Precipice - Mega-Potion x1 (NPC)",
-                        "ref": "Mushroom Rock Road/Precipice/Mega-Potion x1 (NPC)/"
+                        "ref": "Mushroom Rock Road/Precipice/Near Large Elevator (NPC)/Mega-Potion x1"
                     },
                     {
                         "name": "Ridge - Mega-Potion x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Ridge/Mega-Potion x1 (Chest)/"
+                        "ref": "Mushroom Rock Road/Ridge/Near Lulu (Chest)/Mega-Potion x1"
                     },
                     {
                         "name": "Ridge - Serene Bracer (Chest)",
-                        "ref": "Mushroom Rock Road/Ridge/Serene Bracer (Chest)/"
+                        "ref": "Mushroom Rock Road/Ridge/Behind Spear Rack (Chest)/Serene Bracer"
                     },
                     {
                         "name": "Ridge - Sinspawn Gui",
-                        "ref": "Mushroom Rock Road/Ridge/Sinspawn Gui/"
-                    },
-                    {
-                        "name": "Ridge - Seymour",
-                        "ref": "Party Member/Character/Seymour/"
+                        "ref": "Mushroom Rock Road/Ridge/Defeat Sinspawn Gui (Boss)/"
                     },
                     {
                         "name": "Aftermath - Hi-Potion x1 (Chest)",
-                        "ref": "Mushroom Rock Road/Aftermath/Hi-Potion x1 (Chest)/"
+                        "ref": "Mushroom Rock Road/Aftermath/Under Overhang, West Side (Chest)/Hi-Potion x1"
                     },
                     {
                         "name": "Aftermath - Soft x4 (Chest)",
-                        "ref": "Mushroom Rock Road/Aftermath/Soft x4 (Chest)/"
+                        "ref": "Mushroom Rock Road/Aftermath/Left Exit Over Boxes (Chest)/Soft x4"
                     },
                     {
                         "name": "Aftermath - Masamune",
                         "ref": "Celestial/Auron/Masamune/"
                     },
                     {
-                        "name": "Super Bosses - Dark Magus Sisters (Mindy)",
-                        "ref": "Super Bosses/Dark Magus Sisters/Dark Mindy"
-                    },
-                    {
-                        "name": "Super Bosses - Dark Magus Sisters (Sandy)",
-                        "ref": "Super Bosses/Dark Magus Sisters/Dark Sandy"
-                    },
-                    {
-                        "name": "Super Bosses - Dark Magus Sisters (Cindy)",
-                        "ref": "Super Bosses/Dark Magus Sisters/Dark Cindy"
+                        "name": "Super Bosses - Dark Magus Sisters",
+                        "ref": "Mushroom Rock Road/Entrance/Dark Magus Sisters (Superboss)/"
                     }
                 ]
             },
