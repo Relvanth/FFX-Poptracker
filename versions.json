@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.2.3",
+            "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.3/FFX.zip",
+            "sha256": "",
+            "changelog": [
+                " - Reordered locations in Omega ruins to match accessibility"
+            ]
+        },
+        {
             "package_version": "0.2.2",
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.2/FFX.zip",
             "sha256": "61b931fff991d361eee3cc58240b451b79b2aed90f97b668da0b2b7b3fc1e565",
