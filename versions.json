@@ -5,6 +5,8 @@
             "download_url": "https://github.com/Andrewki44/FFX-Poptracker/releases/download/v0.2.5/FFX.zip",
             "sha256": "",
             "changelog": [
+                " - Added region maps for Gagazet, Zanarkand & Inside Sin",
+                " - Cleanup file structure",
                 " - Changed Saturn Sigil Accessibility"
             ]
         },
