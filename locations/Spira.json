@@ -1457,31 +1457,31 @@
                 "sections": [
                     {
                         "name": "Outside - Biran and Yenke",
-                        "ref": "Mt. Gagazet/Biran and Yenke/"
+                        "ref": "Mt. Gagazet/Defeat Biran and Yenke (Boss)/Biran and Yenke"
                     },
                     {
                         "name": "Outside - 20000 gil (Chest)",
-                        "ref": "Mt. Gagazet/Outside/20000 gil (Chest)/"
+                        "ref": "Mt. Gagazet/Outside/Top of Right Ridge Near South Exit (Chest)/20000 gil"
                     },
                     {
                         "name": "Outside - Mega-Potion x2 (Chest)",
-                        "ref": "Mt. Gagazet/Outside/Mega-Potion x2 (Chest)/"
+                        "ref": "Mt. Gagazet/Outside/Left Alcove Near South Exit (Chest)/Mega-Potion x2"
                     },
                     {
                         "name": "Outside - Defending Bracer (Chest)",
-                        "ref": "Mt. Gagazet/Outside/Defending Bracer (Chest)/"
+                        "ref": "Mt. Gagazet/Outside/West Branch Before Bridge to Wantz (Chest)/Defending Bracer"
                     },
                     {
                         "name": "Outside - Lv. 4 Key Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Outside/Lv. 4 Key Sphere x1 (Chest)/"
+                        "ref": "Mt. Gagazet/Outside/Under Bridge After Wantz (Chests)/Lv. 4 Key Sphere x1"
                     },
                     {
                         "name": "Outside - HP Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Outside/HP Sphere x1 (Chest)/"
+                        "ref": "Mt. Gagazet/Outside/Under Bridge After Wantz (Chests)/HP Sphere x1"
                     },
                     {
                         "name": "Outside - Seymour Flux",
-                        "ref": "Mt. Gagazet/Outside/Seymour Flux/"
+                        "ref": "Mt. Gagazet/Outside/Defeat Seymour Flux (Boss)/Seymour Flux"
                     },
                     {
                         "name": "Outside - Saturn Crest (Chest)",
@@ -1489,27 +1489,27 @@
                     },
                     {
                         "name": "Inside - Lv. 1 Key Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Inside/Lv. 1 Key Sphere x1 (Chest)/"
+                        "ref": "Mt. Gagazet/Inside/Reward from First Trial (Chest)/Lv. 1 Key Sphere x1"
                     },
                     {
                         "name": "Inside - Fortune Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Inside/Fortune Sphere x1 (Chest)/"
+                        "ref": "Mt. Gagazet/Inside/Reward From Second Trial (Chest)/Fortune Sphere x1"
                     },
                     {
                         "name": "Inside - Return Sphere x1 (Chest)",
-                        "ref": "Mt. Gagazet/Inside/Return Sphere x1 (Chest)/"
+                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere, Left (Chest)/Return Sphere x1"
                     },
                     {
                         "name": "Inside - Recovery Ring (Chest)",
-                        "ref": "Mt. Gagazet/Inside/Recovery Ring (Chest)/"
+                        "ref": "Mt. Gagazet/Inside/After Both Trials, East Exit From Save Sphere, Left (Chest)/Recovery Ring"
                     },
                     {
                         "name": "Inside - Pep Talk (Chest)",
-                        "ref": "Mt. Gagazet/Inside/Pep Talk (Chest)/"
+                        "ref": "Mt. Gagazet/Inside/After Both Trials, Left Alcove, Northwest of Save Sphere (Chest)/Pep Talk"
                     },
                     {
                         "name": "Inside - Sanctuary Keeper",
-                        "ref": "Mt. Gagazet/Inside/Sanctuary Keeper/"
+                        "ref": "Mt. Gagazet/Inside/Defeat Sanctuary Keeper (Boss)/Sanctuary Keeper"
                     },
                     {
                         "name": "Super Bosses - Dark Anima",

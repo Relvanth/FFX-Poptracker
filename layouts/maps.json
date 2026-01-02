@@ -3,22 +3,22 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Zanarkand",
+                "title": "Mt. Gagazet",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Ruins",
+                            "title": "Outside",
                             "content": {
                                 "type": "map",
-                                "maps": ["Zanarkand Temple"]
+                                "maps": ["Gagazet Cave"]
                             }
                         },
                         {
-                            "title": "Temple",
+                            "title": "Cave",
                             "content": {
                                 "type": "map",
-                                "maps": ["Zanarkand Ruins"]
+                                "maps": ["Gagazet Cave"]
                             }
                         }
                     ]
@@ -353,14 +353,14 @@
                             "title": "Outside",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mt. Gagazet Outside"]
+                                "maps": ["Gagazet Outside"]
                             }
                         },
                         {
                             "title": "Cave",
                             "content": {
                                 "type": "map",
-                                "maps": ["Mt. Gagazet Cave"]
+                                "maps": ["Gagazet Cave"]
                             }
                         }
                     ]
