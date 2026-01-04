@@ -13,35 +13,68 @@
                         "name": "Oasis",
                         "children": [
                             {
-                                "name": "Remedy x4 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "In Southwest Corner of Water (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 1400, "y": 1175}],
+                                "sections": [{"name": "Remedy x4"}]
                             },
                             {
-                                "name": "Al Bhed Potion x8",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Northeast of Water (Primer)",
+                                "map_locations": [{ "map": "Bikanel", "x": 1445, "y": 1075}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer I",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer I/Bikanel"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Next to Tent (Chest & Primer)",
+                                "map_locations": [{ "map": "Bikanel", "x": 1225, "y": 780}],
+                                "sections": [
+                                    {"name": "Al Bhed Potion x8"},
+                                    {
+                                        "name": "Al Bhed Primer III",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer III/Bikanel"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
                         "name": "East",
                         "children": [
-                            
                             {
-                                "name": "Al Bhed Potion x8",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Behind Machinery Near Kimahri (Primer)",
+                                "map_locations": [{ "map": "Bikanel", "x": 890, "y": 1130}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer V",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer V/Bikanel"
+                                    }
+                                ]
                             },
                             {
-                                "name": "Ether x2 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Near First Tent (Chests)",
+                                "map_locations": [{ "map": "Bikanel", "x": 875, "y": 960}],
+                                "sections": [
+                                    {"name": "Ether x2"},
+                                    {"name": "Al Bhed Potion x8"}
+                                ]
                             },
                             {
-                                "name": "Hi-Potion x4 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Western Alcove, Northeast of Structure (Primer)",
+                                "map_locations": [{ "map": "Bikanel", "x": 950, "y": 770}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer XIV",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer XIV/Bikanel"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Western Alcove, Near Structure (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 930, "y": 820}],
+                                "sections": [{"name": "Hi-Potion x4"}]
                             }
                         ]
                     },
@@ -49,39 +82,57 @@
                         "name": "Central",
                         "children": [
                             {
-                                "name": "Hi-Potion x4 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Structure Southeast of Save Sphere (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 515, "y": 920}],
+                                "sections": [{"name": "Hi-Potion x4"}]
                             },
                             {
-                                "name": "X-Potion x2 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Rock Ridge Southwest of Save Sphere (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 340, "y": 975}],
+                                "sections": [{"name": "X-Potion x2"}]
                             },
                             {
-                                "name": "Mega-Potion x2 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Far West Corner (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 75, "y": 905}],
+                                "sections": [{"name": "Mega-Potion x2"}]
                             },
                             {
-                                "name": "Al Bhed Potion x8",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Right of Save Sphere (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 335, "y": 785}],
+                                "sections": [{"name": "Al Bhed Potion x8"}]
                             },
                             {
-                                "name": "Elixir x1 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Near Sign At Northeast Exit (Primer)",
+                                "map_locations": [{ "map": "Bikanel", "x": 410, "y": 675}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer XVIII",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer XVIII/Bikanel"
+                                    }
+                                ]
                             },
                             {
-                                "name": "Lv. 2 Key Sphere x1 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Southwest Corner of Northwest Zone (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 100, "y": 800}],
+                                "sections": [{"name": "Elixir x1"}]
                             },
                             {
-                                "name": "10000 gil (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Central Structure of Northwest Zone (Chests)",
+                                "map_locations": [{ "map": "Bikanel", "x": 170, "y": 725}],
+                                "sections": [
+                                    {"name": "Lv. 2 Key Sphere x1"},
+                                    {"name": "10000 gil"}
+                                ]
+                            },
+                            {
+                                "name": "Northeast Structure of Northwest Zone (Primer)",
+                                "map_locations": [{ "map": "Bikanel", "x": 180, "y": 665}],
+                                "sections": [
+                                    {
+                                        "name": "Al Bhed Primer XVII",
+                                        "ref": "Al Bhed Primers/Al Bhed Primer XVII/Bikanel"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -89,29 +140,42 @@
                         "name": "West",
                         "children": [
                             {
-                                "name": "Megalixir x3 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Left Sinkhole on Main Path (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 645, "y": 205}],
+                                "sections": [{"name": "Megalixir x3"}]
                             },
                             {
-                                "name": "Teleport Sphere x2 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Right Sinkhole on Main Path (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 730, "y": 190}],
+                                "sections": [{"name": "Teleport Sphere x2"}]
                             },
                             {
-                                "name": "Hi-Potion x8 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "First Western Alcove (Chests)",
+                                "map_locations": [{ "map": "Bikanel", "x": 590, "y": 285}],
+                                "sections": [
+                                    {"name": "Hi-Potion x8"},
+                                    {"name": "Mercury Crest", "ref": "Celestial/Rikku/Mercury Crest"}
+                                ]
                             },
                             {
-                                "name": "Mega-Potion x3 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Second Western Alcove, Hidden Behind Rock (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 570, "y": 222}],
+                                "sections": [{"name": "Mega-Potion x3"}]
                             },
                             {
-                                "name": "X-Potion x2 (Chest)",
-                                "map_locations": [{ "map": "Bikanel", "x": 0, "y": 0}],
-                                "sections": [{}]
+                                "name": "Second Western Alcove, North Side (Chest)",
+                                "map_locations": [{ "map": "Bikanel", "x": 580, "y": 165}],
+                                "sections": [{"name": "X-Potion x2"}]
+                            },
+                            {
+                                "name": "Complete Cactuar Village Quest (Event)",
+                                "map_locations": [{ "map": "Bikanel", "x": 900, "y": 300}],
+                                "sections": [{"name": "Mercury Sigil", "ref": "Celestial/Rikku/Mercury Sigil"}]
+                            },
+                            {
+                                "name": "Defeat Dark Ifrit (Superboss)",
+                                "map_locations": [{ "map": "Bikanel", "x": 660, "y": 110, "shape": "trapezoid", "size": 32}],
+                                "sections": [{"name": "Dark Ifrit", "ref": "Super Bosses/Dark Ifrit"}]
                             }
                         ]
                     }
@@ -121,66 +185,67 @@
                 "name": "Home",
                 "children": [
                     {
-                        "name": "Hi-Potion x2 (NPC on Ground)",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Keyakku, on Ground (NPC)",
+                        "map_locations": [{ "map": "Home", "x": 100, "y": 650}],
+                        "sections": [{"name": "Hi-Potion x2"}]
                     },
                     {
-                        "name": "Al Bhed Potion x6 (Chest)",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Left of Entrance (Primer)",
+                        "map_locations": [{ "map": "Home", "x": 50, "y": 550}],
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer XIX",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XIX/Home"
+                            }
+                        ]
                     },
                     {
-                        "name": "Special Sphere x1 (Al Bhed Password Chest)",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "North Hall, Left (Chest)",
+                        "map_locations": [{ "map": "Home", "x": 630, "y": 200}],
+                        "sections": [{"name": "Al Bhed Potion x6"}]
                     },
                     {
-                        "name": "Skill Sphere x1 (Al Bhed Quiz Chest)",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Northeast Corner (Primer)",
+                        "map_locations": [{ "map": "Home", "x": 785, "y": 135}],
+                        "sections": [
+                            {
+                                "name": "Al Bhed Primer XXI",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XXI/Home"
+                            }
+                        ]
                     },
                     {
-                        "name": "Al Bhed Potion x4 (Chest)",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "East of Main Corridor (Chests)",
+                        "map_locations": [{ "map": "Home", "x": 760, "y": 525}],
+                        "sections": [
+                            {"name": "Special Sphere x1"},
+                            {"name": "Skill Sphere x1"}
+                        ]
                     },
                     {
-                        "name": "Friend Sphere x1 (Al Bhed Vocabulary Chest)",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "Hidden Behind Left Smoke (Chest)",
+                        "map_locations": [{ "map": "Home", "x": 628, "y": 550}],
+                        "sections": [{"name": "Al Bhed Potion x4"}]
                     },
                     {
-                        "name": "Elixir x1 (Al Bhed Vocabulary Chest)",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
-                        "sections": [{}]
+                        "name": "South of Main Corridor (Chests)",
+                        "map_locations": [{ "map": "Home", "x": 500, "y": 525}],
+                        "sections": [
+                            {"name": "Friend Sphere x1"},
+                            // {"name": "Elixir x1"},
+                            {
+                                "name": "Al Bhed Primer XX",
+                                "ref": "Al Bhed Primers/Al Bhed Primer XX/Home"
+                            }
+                        ]
                     },
                     {
                         "name": "Area Completion",
-                        "map_locations": [{ "map": "Home", "x": 0, "y": 0}],
+                        "map_locations": [{ "map": "Home", "x": 300, "y": 115}],
                         "sections": [
-                            {
-                                "hosted_item": "homecompletion1, homecompletion2, homecompletion3",
-                                "clear_as_group": false
-                            },
-                            {
-                                "name": "Lv. 2 Key Sphere x1",
-                                "hosted_item": "homecompletion1",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            },
-                            {
-                                "name": "Lv. 4 Key Sphere x4",
-                                "hosted_item": "homecompletion2",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            },
-                            {
-                                "name": "10000 gil",
-                                "hosted_item": "homecompletion3",
-                                "item_count": 1,
-                                "clear_as_group": true
-                            }
+                            {"name": "Lv. 2 Key Sphere x1"},
+                            {"name": "Lv. 4 Key Sphere x4"},
+                            {"name": "10000 gil"}
                         ]
                     }
                 ]
