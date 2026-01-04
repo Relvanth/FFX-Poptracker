@@ -1219,51 +1219,51 @@
                     },
                     {
                         "name": "Via Purifico - Mega-Potion x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/Mega-Potion x1 (Chest)/"
+                        "ref": "Bevelle/Via Purifico/East Room With Kimahri (Chest)/Mega-Potion x1"
                     },
                     {
                         "name": "Via Purifico - Wht Magic Sphere x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/Wht Magic Sphere x1 (Chest)/"
+                        "ref": "Bevelle/Via Purifico/West Room With Lulu (Chest)/Wht Magic Sphere x1"
                     },
                     {
                         "name": "Via Purifico - Elixir x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/Elixir x1 (Chest)/"
+                        "ref": "Bevelle/Via Purifico/Southwest Room Near Glyph (Chest)/Elixir x1"
                     },
                     {
-                        "name": "Via Purifico - Blk Magic Sphere (Chest)",
-                        "ref": "Bevelle/Via Purifico/Blk Magic Sphere (Chest)/"
+                        "name": "Via Purifico - Blk Magic Sphere x1 (Chest)",
+                        "ref": "Bevelle/Via Purifico/Room Northeast of Central Teleporter (Chest)/Blk Magic Sphere x1"
                     },
                     {
                         "name": "Via Purifico - Skill Sphere x1 (Chest)",
-                        "ref": "Bevelle/Via Purifico/Skill Sphere x1 (Chest)/"
+                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/Skill Sphere x1"
                     },
                     {
                         "name": "Via Purifico - 10000 gil (Chest)",
-                        "ref": "Bevelle/Via Purifico/10000 gil (Chest)/"
+                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/10000 gil"
                     },
                     {
                         "name": "Via Purifico - Lucid Ring (Chest)",
-                        "ref": "Bevelle/Via Purifico/Lucid Ring (Chest)/"
+                        "ref": "Bevelle/Via Purifico/Puzzle Room (Chests)/Lucid Ring"
                     },
                     {
                         "name": "Via Purifico - Isaaru",
-                        "ref": "Bevelle/Via Purifico/Isaaru/"
+                        "ref": "Bevelle/Via Purifico/Defeat Isaaru (Boss)/Isaaru"
                     },
                     {
                         "name": "Underwater - Evrae Altana",
-                        "ref": "Bevelle/Underwater/Evrae Altana/"
+                        "ref": "Bevelle/Underwater/Defeat Evrae Altana (Boss)/Evrae Altana"
                     },
                     {
                         "name": "Underwater - Rematch (Chest)",
-                        "ref": "Bevelle/Underwater/Rematch (Chest)/"
+                        "ref": "Bevelle/Underwater/Right Side Before First Turn (Chest)/Rematch"
                     },
                     {
                         "name": "Underwater - Avenger (Chest)",
-                        "ref": "Bevelle/Underwater/Avenger (Chest)/"
+                        "ref": "Bevelle/Underwater/Right Side After First Turn (Chest)/Avenger"
                     },
                     {
                         "name": "Highbridge - Seymour Natus",
-                        "ref": "Bevelle/Highbridge/Seymour Natus/"
+                        "ref": "Bevelle/Highbridge/Defeat Seymour Natus (Boss)/Seymour Natus"
                     }
                 ]
             },
@@ -1273,15 +1273,15 @@
                 "sections": [
                     {
                         "name": "Plains - 5000 gil (Chest)",
-                        "ref": "Calm Lands/Plains/5000 gil (Chest)/"
+                        "ref": "Calm Lands/Plains/Southeast Corner, Right (Chest)/5000 gil"
                     },
                     {
                         "name": "Plains - 10000 gil (Chest)",
-                        "ref": "Calm Lands/Plains/10000 gil (Chest)/"
+                        "ref": "Calm Lands/Plains/Southeast Corner, Left (Chest)/10000 gil"
                     },
                     {
                         "name": "Plains - Lv. 2 Key Sphere x1 (Chest)",
-                        "ref": "Calm Lands/Plains/Lv. 2 Key Sphere x1 (Chest)/"
+                        "ref": "Calm Lands/Plains/Behind Agency Tent (Chest)/Lv. 2 Key Sphere x1"
                     },
                     {
                         "name": "Plains - Al Bhed Primer XXIII",
@@ -1297,7 +1297,7 @@
                     },
                     {
                         "name": "Plains - Defender X",
-                        "ref": "Calm Lands/Plains/Defender X/"
+                        "ref": "Calm Lands/Plains/Defeat Defender X (Boss)/Defender X"
                     },
                     {
                         "name": "Gorge - Recruit Durren",
@@ -1308,20 +1308,20 @@
                         "ref": "Celestial/General/Rusty Sword"
                     },
                     {
-                        "name": "Chocobo - Wobbly Chocobo Minigame Reward",
-                        "ref": "Calm Lands/Chocobo/Wobbly Chocobo Minigame Reward/"
+                        "name": "Chocobo - Wobbly Chocobo Minigame (Event)",
+                        "ref": "Calm Lands/Chocobo/Wobbly Chocobo Minigame (Event)/Elixir x1"
                     },
                     {
-                        "name": "Chocobo - Dodger Chocobo Minigame Reward",
-                        "ref": "Calm Lands/Chocobo/Dodger Chocobo Minigame Reward/"
+                        "name": "Chocobo - Dodger Chocobo Minigame (Event)",
+                        "ref": "Calm Lands/Chocobo/Dodger Chocobo Minigame (Event)/Lv. 1 Key Sphere x1"
                     },
                     {
-                        "name": "Chocobo - Hyper Dodger Chocobo Minigame Reward",
-                        "ref": "Calm Lands/Chocobo/Hyper Dodger Chocobo Minigame Reward/"
+                        "name": "Chocobo - Hyper Dodger Chocobo Minigame (Event)",
+                        "ref": "Calm Lands/Chocobo/Hyper Dodger Chocobo Minigame (Event)/Lv. 2 Key Sphere x1"
                     },
                     {
-                        "name": "Chocobo - Catcher Chocobo Minigame Reward",
-                        "ref": "Calm Lands/Chocobo/Catcher Chocobo Minigame Reward/"
+                        "name": "Chocobo - Catcher Chocobo Minigame (Event)",
+                        "ref": "Calm Lands/Chocobo/Catcher Chocobo Minigame (Event)/Lv. 3 Key Sphere x1"
                     },
                     {
                         "name": "Chocobo - Sun Sigil (Chocobo Catcher 0:00)",
@@ -1347,35 +1347,35 @@
                     },
                     {
                         "name": "Belgemine - Valefor Fight",
-                        "ref": "Remiem Temple/Belgemine/Valefor Fight/"
+                        "ref": "Remiem Temple/Belgemine/Valefor Fight"
                     },
                     {
                         "name": "Belgemine - Ifrit Fight",
-                        "ref": "Remiem Temple/Belgemine/Ifrit Fight/"
+                        "ref": "Remiem Temple/Belgemine/Ifrit Fight"
                     },
                     {
                         "name": "Belgemine - Ixion Fight",
-                        "ref": "Remiem Temple/Belgemine/Ixion Fight/"
+                        "ref": "Remiem Temple/Belgemine/Ixion Fight"
                     },
                     {
                         "name": "Belgemine - Shiva Fight",
-                        "ref": "Remiem Temple/Belgemine/Shiva Fight/"
+                        "ref": "Remiem Temple/Belgemine/Shiva Fight"
                     },
                     {
-                        "name": "Belgemine - Bahamut Fight (Flower Scepter)",
-                        "ref": "Remiem Temple/Belgemine/Bahamut Fight (Flower Scepter)/"
+                        "name": "Belgemine - Bahamut Fight",
+                        "ref": "Remiem Temple/Belgemine/Bahamut Fight"
                     },
                     {
                         "name": "Belgemine - Yojimbo Fight",
-                        "ref": "Remiem Temple/Belgemine/Yojimbo Fight/"
+                        "ref": "Remiem Temple/Belgemine/Yojimbo Fight"
                     },
                     {
                         "name": "Belgemine - Anima Fight",
-                        "ref": "Remiem Temple/Belgemine/Anima Fight/"
+                        "ref": "Remiem Temple/Belgemine/Anima Fight"
                     },
                     {
                         "name": "Belgemine - Magus Sisters Fight",
-                        "ref": "Remiem Temple/Belgemine/Magus Sisters Fight/"
+                        "ref": "Remiem Temple/Belgemine/Magus Sisters Fight"
                     },
                     {
                         "name": "Belgemine - Moon Sigil (Send Belgemine)",
