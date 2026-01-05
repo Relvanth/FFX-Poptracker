@@ -306,18 +306,6 @@
                         "ref": "Luca/City/Staircase Leading to Mi'ihen (Chest)/1000 Gil"
                     },
                     {
-                        "name": "Dock - Oblitzerator",
-                        "ref": "Luca/Dock/Defeat Oblitzerator (Boss)/Oblitzerator"
-                    },
-                    {
-                        "name": "Stadium - Story Win vs. Luca Goers Reward",
-                        "ref": "Luca/Stadium/Win the Story Blitzball Tournament (Event)/Story Win vs. Luca Goers Reward"
-                    },
-                    {
-                        "name": "Stadium - Auron",
-                        "ref": "Party Member/Character/Auron"
-                    },
-                    {
                         "name": "Dock - Recruit Nedus",
                         "ref": "Blitzball Recruits/Nedus"
                     },
@@ -342,16 +330,28 @@
                         "ref": "Blitzball Recruits/Shaami"
                     },
                     {
-                        "name": "City - Recruit Shuu",
-                        "ref": "Blitzball Recruits/Shuu"
-                    },
-                    {
                         "name": "City - Recruit Zalitz",
                         "ref": "Blitzball Recruits/Zalitz"
                     },
                     {
+                        "name": "Dock - Oblitzerator",
+                        "ref": "Luca/Dock/Defeat Oblitzerator (Boss)/Oblitzerator"
+                    },
+                    {
+                        "name": "Stadium - Story Win vs. Luca Goers Reward",
+                        "ref": "Luca/Stadium/Win the Story Blitzball Tournament (Event)/Story Win vs. Luca Goers Reward"
+                    },
+                    {
+                        "name": "Stadium - Auron",
+                        "ref": "Party Member/Character/Auron"
+                    },
+                    {
                         "name": "Stadium Locker Room - Jupiter Crest (Locker)",
                         "ref": "Celestial/Wakka/Jupiter Crest"
+                    },
+                    {
+                        "name": "City - Recruit Shuu",
+                        "ref": "Blitzball Recruits/Shuu"
                     },
                     {
                         "name": "City Cafe - World Champion",
