@@ -46,10 +46,10 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Beach",
+                            "title": "Island",
                             "content": {
                                 "type": "map",
-                                "maps": ["Besaid Beach"]
+                                "maps": ["Besaid Island"]
                             }
                         },
                         {
@@ -57,6 +57,13 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Besaid Village"]
+                            }
+                        },
+                        {
+                            "title": "Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Besaid Temple"]
                             }
                         },
                         {
@@ -174,23 +181,8 @@
             {
                 "title": "Guadosalam",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Guadosalam",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Guadosalam"]
-                            }
-                        },
-                        {
-                            "title": "Farplane",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Farplane"]
-                            }
-                        }
-                    ]
+                    "type": "map",
+                    "maps": ["Guadosalam"]
                 }
             },
             {
@@ -246,13 +238,6 @@
                             "content": {
                                 "type": "map",
                                 "maps": ["Lake Macalania"]
-                            }
-                        },
-                        {
-                            "title": "Lake Bottom",
-                            "content": {
-                                "type": "map",
-                                "maps": ["Lake Macalania Bottom"]
                             }
                         }
                     ]
