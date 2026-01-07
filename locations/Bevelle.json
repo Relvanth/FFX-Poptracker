@@ -126,7 +126,7 @@
                     {
                         "name": "Defeat Seymour Natus (Boss)",
                         "map_locations": [{ "map": "Via Purifico", "x": 1145, "y": 80, "shape": "trapezoid", "size": 32}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Seymour Natus",

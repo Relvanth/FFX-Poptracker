@@ -9,7 +9,7 @@
             {
                 "name": "Defeat Biran and Yenke (Boss)",
                 "map_locations": [{ "map": "Gagazet Outside", "x": 862, "y": 600, "shape": "trapezoid", "size": 24}],
-                "access_rules": ["[$hasPartyMembers|3]"],
+                "access_rules": ["[$hasMinimumParty|3]"],
                 "sections": [
                     {
                         "name": "Biran and Yenke",
@@ -49,7 +49,7 @@
                     {
                         "name": "Defeat Seymour Flux (Boss)",
                         "map_locations": [{ "map": "Gagazet Outside", "x": 65, "y": 300, "shape": "trapezoid", "size": 24}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Seymour Flux",
@@ -106,7 +106,7 @@
                     {
                         "name": "Defeat Sanctuary Keeper (Boss)",
                         "map_locations": [{ "map": "Gagazet Cave", "x": 240, "y": 160, "shape": "trapezoid", "size": 24}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Sanctuary Keeper",

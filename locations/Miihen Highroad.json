@@ -113,7 +113,7 @@
                     {
                         "name": "Defeat Chocobo Eater (Boss)",
                         "map_locations": [{ "map": "Miihen Highroad Agency", "x": 0, "y": 0}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "name": "Chocobo Eater",

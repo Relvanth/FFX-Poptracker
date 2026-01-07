@@ -112,7 +112,7 @@
                     {
                         "name": "Defeat Oblitzerator (Boss)",
                         "map_locations": [{"map": "Luca Dock", "x": 0, "y": 0}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             { 
                                 "name": "Oblitzerator",

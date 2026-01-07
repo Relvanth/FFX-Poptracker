@@ -42,7 +42,7 @@
                     {
                         "name": "Defeat Spherimorph (Boss)",
                         "map_locations": [{ "map": "Macalania Woods", "x": 0, "y": 0}],
-                        "access_rules": ["[$hasPartyMembers|3]"],
+                        "access_rules": ["[$hasMinimumParty|3]"],
                         "sections": [
                             {
                                 "hosted_item": "spherimorph, jechtsphere",
@@ -100,7 +100,7 @@
                             {
                                 "name": "Defeat Crawler (Boss)",
                                 "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["[$hasPartyMembers|3]"],
+                                "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
                                         "name": "Crawler",
@@ -119,7 +119,7 @@
                             {
                                 "name": "Defeat Wendigo (Boss)",
                                 "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["seymouranima, [$hasPartyMembers|3]"],
+                                "access_rules": ["seymouranima, [$hasMinimumParty|3]"],
                                 "sections": [
                                     {
                                         "name": "Wendigo",
@@ -199,7 +199,7 @@
                             {
                                 "name": "Defeat Seymour (Boss)",
                                 "map_locations": [{ "map": "Lake Macalania", "x": 0, "y": 0}],
-                                "access_rules": ["[$hasPartyMembers|3]"],
+                                "access_rules": ["[$hasMinimumParty|3]"],
                                 "sections": [
                                     {
                                         "name": "Seymour",

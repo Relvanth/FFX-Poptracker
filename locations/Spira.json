@@ -270,7 +270,7 @@
                         "ref": "Kilika/Woods/Path North of Lord Ochu, Curving West (Chest)/Luck Sphere x1"
                     },
                     {
-                        "name": "Woods - Luzu (NPC)",
+                        "name": "Woods - Luzu - Before Ochu (NPC)",
                         "ref": "Kilika/Woods/Luzu (NPC)/Antidote x4 (Before Defeating Ochu)"
                     },
                     {
@@ -278,7 +278,7 @@
                         "ref": "Kilika/Woods/Defeat Lord Ochu (Boss)/Lord Ochu"
                     },
                     {
-                        "name": "Woods - Luzu (NPC)",
+                        "name": "Woods - Luzu - After Ochu (NPC)",
                         "ref": "Kilika/Woods/Luzu (NPC)/Elixir x1 (After Defeating Ochu)"
                     },
                     {
