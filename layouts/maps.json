@@ -3,10 +3,10 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Airship",
+                "title": "Guadosalam",
                 "content": {
                     "type": "map",
-                    "maps": ["Airship"]
+                    "maps": ["Guadosalam"]
                 }
             },
             {
