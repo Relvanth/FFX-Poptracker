@@ -3,10 +3,10 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Luca",
+                "title": "Woods",
                 "content": {
                     "type": "map",
-                    "maps": ["Luca"]
+                    "maps": ["Macalania Woods"]
                 }
             },
             {
@@ -244,14 +244,21 @@
                             "title": "Woods",
                             "content": {
                                 "type": "map",
-                                "maps": ["Macalania Woodsxx"]
+                                "maps": ["Macalania Woods"]
                             }
                         },
                         {
                             "title": "Lake",
                             "content": {
                                 "type": "map",
-                                "maps": ["Lake Macalaniaxx"]
+                                "maps": ["Lake Macalania"]
+                            }
+                        },
+                        {
+                            "title": "Temple",
+                            "content": {
+                                "type": "map",
+                                "maps": ["Macalania Temple"]
                             }
                         }
                     ]

@@ -162,6 +162,12 @@
         "img": "images/maps/regions/luca/Luca.png"
     },
     {
+        "name": "Macalania Temple",
+        "location_size": 16,
+        "location_border_thickness": 1,
+        "img": "images/maps/regions/macalania/Macalania Temple.png"
+    },
+    {
         "name": "Macalania Woods",
         "location_size": 16,
         "location_border_thickness": 1,

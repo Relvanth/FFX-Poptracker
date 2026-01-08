@@ -937,7 +937,11 @@
                     },
                     {
                         "name": "Woods - Spherimorph",
-                        "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/"
+                        "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Spherimorph"
+                    },
+                    {
+                        "name": "Woods - Jecht Sphere",
+                        "ref": "Macalania/Woods/Defeat Spherimorph (Boss)/Jecht Sphere"
                     },
                     {
                         "name": "Woods - Lucid Ring (Chest)",
